@@ -1,0 +1,85 @@
+.main-container {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-container .institutional {
+  background-color: #191970;
+  margin-top: 40px;
+  width: 100%;
+  padding: 20px;
+}
+
+.main-container .institutional p {
+  text-align: justify;
+  font: 400 18px Lato, sans-serif;
+  color: #fff;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.main-container .below-panel {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: top;
+  margin-bottom: 50px;
+}
+
+.main-container .below-panel div {
+  width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: #780001;
+}
+
+.main-container .below-panel div:first-of-type {
+  margin-right: 100px;
+}
+
+.main-container .below-panel div:last-of-type {
+  margin-left: 100px;
+}
+
+.main-container .below-panel h2 {
+  padding-bottom: 5px;
+  font: 600 18px Lato, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #780001;
+  margin-bottom: 10px;
+}
+
+.main-container .below-panel h2:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 10px;
+  border-bottom: 2px solid #780001;
+}
+
+.main-container .below-panel p {
+  text-align: justify;
+  font: 400 16px Lato, sans-serif;
+}
+
+.main-container .below-panel ul {
+  list-style: none;
+}
+
+.main-container .below-panel ul li:first-of-type {
+  text-align: justify;
+  font: 400 16px Lato, sans-serif;
+}
+
+.main-container .below-panel ul li {
+  text-align: justify;
+  font: 400 16px Lato, sans-serif;
+  margin: 0 0 10px;
+}

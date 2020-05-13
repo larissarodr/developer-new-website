@@ -1,0 +1,177 @@
+.outside-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: flex-start;
+  height: 600px;
+  background-color: #f7f7f7;
+}
+
+.solution-icons img {
+  margin: 10px 10px;
+  padding: 5px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.solution-icons img:hover {
+  opacity: 0.7;
+}
+
+.solution-icons {
+  margin-bottom: 50px;
+  margin-top: 40px;
+  margin-left: 40px;
+  max-width: 100%;
+  display: grid;
+  row-gap: 10px;
+  column-gap: 5px;
+  grid-auto-columns: auto;
+  grid-template-areas: 
+  "a b c d e"
+  "f g h i j"
+  "k l m n o";   
+}
+
+.solution-icons p {
+  max-width: 140px;
+  color: #000;
+  font: 700 18px Lato, sans-serif;
+  text-align: center;
+}
+
+.solution-text {
+  margin-left: 60px;
+  margin-top: 40px;
+  width: 450px;
+}
+
+.solution-text h2 {
+  margin-top: 30px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #000;
+  font: 700 18px Lato, sans-serif;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.solution-text h3 {
+  color: #780001;
+  margin-top: 30px;
+  font: 700 14px Lato, sans-serif;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.solution-text p {
+  text-align: justify;
+  font: 400 16px Lato, sans-serif;
+  line-height: 24px;
+}
+
+.solution-text ul {
+  list-style: none;
+}
+
+.solution-text ul li:first-of-type {
+  text-align: justify;
+  font: 400 16px Lato, sans-serif;
+}
+
+.solution-text ul li {
+  text-align: justify;
+  font: 400 16px Lato, sans-serif;
+  margin: 0 0 10px;
+}
+
+.sol-financeiro {
+  grid-area: a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sol-comercial {
+  grid-area: b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sol-logistica {
+  grid-area: c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sol-producao {
+  grid-area: d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sol-servico {
+  grid-area: e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sol-fiscal {
+  grid-area: f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sol-controleQualidade {
+  grid-area: g;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sol-gestaoPessoas {
+  grid-area: h;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sol-medicina {
+  grid-area: i;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sol-gestaoAmbiental {
+  grid-area: j;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sol-gestaoClinica {
+  grid-area: k;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sol-universal {
+  grid-area: l;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sol-crm {
+  grid-area: m;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sol-BI {
+  grid-area: n;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sol-empty {
+  grid-area: o;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
