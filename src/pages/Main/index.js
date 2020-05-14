@@ -7,8 +7,9 @@ import Header from '../../components/Header';
 import Menu from '../../components/Menu';
 import Footer from '../../components/Footer';
 
-import mainImg from '../../assets/handsChart-5.jpg'
+import mainImg from '../../assets/handsChartDarker.jpg'
 
+import manutAtivos from '../../assets/iconeManutAtivos.png'
 import fiscal from '../../assets/iconeFiscal.png'
 import bi from '../../assets/iconeBI.png'
 import universal from '../../assets/iconeUniversal.png'
@@ -37,6 +38,7 @@ export default function Main(){
                 <div className="solutions">
                     <div className="title">
                         <h2>DEVELOPER Gestão Empresarial</h2>
+                        <p className="evolution">Uma evolução tecnológica constante...</p>
                         <p>Encontre a melhor solução para o seu negócio</p>
                     </div>
                     <div className="icons">
@@ -95,6 +97,10 @@ export default function Main(){
                         <div className="BI">
                             <img alt="BI" src={bi}/>
                             <p>BI</p>
+                        </div>
+                        <div className="manutAtivos">
+                            <img alt="Manutenção de Ativos" src={manutAtivos}/>
+                            <p>Manutenção de Ativos</p>
                         </div>
                     </div>
                     <div className="buttons">

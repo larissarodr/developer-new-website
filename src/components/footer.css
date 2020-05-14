@@ -20,7 +20,7 @@ footer .footerInfo {
 }
 
 footer .footerInfo h3 {
-  font: 800 18px Lato, sans-serif;
+  font: 800 18px Ubuntu, sans-serif;
   text-transform: uppercase;
 }
 
@@ -35,7 +35,7 @@ footer .footerInfo ul li {
 
 footer .footerInfo ul li a {
   text-decoration: none;
-  font: 400 16px Lato, sans-serif;
+  font: 400 16px Ubuntu, sans-serif;
   color: #000;
 }
 
@@ -62,18 +62,18 @@ footer .footerInfo .logo img {
 footer .footerInfo .logo p {
   margin-top: 15px;
   max-width: 210px;
-  font: 600 14px Lato, sans-serif;
+  font: 700 13px Ubuntu, sans-serif;
   text-align: jutify;
 }
 
 footer .footerInfo .contact-footer p {
   margin-top: 20px;
-  font: 400 16px Lato, sans-serif;
+  font: 400 16px Ubuntu, sans-serif;
 }
 
 footer .footerInfo .contact-footer p + p{
   margin-top: 10px;
-  font: 400 16px Lato, sans-serif;
+  font: 400 16px Ubuntu, sans-serif;
 }
 
 footer .footerInfo .contact-footer svg {
@@ -85,5 +85,5 @@ footer .copyright {
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
-  font: 400 14px Lato, sans-serif;
+  font: 400 14px Ubuntu, sans-serif;
 }

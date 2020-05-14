@@ -28,7 +28,7 @@
 .contact .item h1 {
   text-transform: uppercase;
   border-bottom: 2px solid #000;
-  font: 700 18px Lato, sans-serif;
+  font: 700 18px Ubuntu, sans-serif;
   width: 400px;
 }
 
@@ -38,7 +38,7 @@
 
 .contact .item p {
   padding: 2px;
-  font: 300 16px Lato, sans-serif;
+  font: 300 16px Ubuntu, sans-serif;
 }
 
 .contact .item p svg {
@@ -49,13 +49,13 @@
   margin-top: 30px;
   text-transform: uppercase;
   border-bottom: 2px solid #000;
-  font: 700 18px Lato, sans-serif;
+  font: 700 18px Ubuntu, sans-serif;
   width: 100%;
   margin-bottom: 20px;
 }
 
 .contact .section-two input, button, textarea, label {
-  font: 400 16px Lato, sans-serif;  
+  font: 400 16px Ubuntu, sans-serif;  
 }
 
 .contact .section-two button {
@@ -87,7 +87,7 @@
 
 .contact .section-two .button {
   width: 30%;
-  background: #780001;
+  background: #701919;
   border: 0;
   border-radius: 8px;
   color: #fff;

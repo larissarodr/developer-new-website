@@ -5,6 +5,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Menu from '../../components/Menu';
 
+import manutAtivos from '../../assets/iconeManutAtivos.png'
 import fiscal from '../../assets/iconeFiscal.png'
 import bi from '../../assets/iconeBI.png'
 import universal from '../../assets/iconeUniversal.png'
@@ -237,6 +238,18 @@ export default function Solucoes(){
         </>
     );
 
+    const textManutAtivos  = (
+        <>
+            <h2>Manutenção de Ativos</h2>
+            <p>- ALTERAR ESTE TEXTO.</p>
+            <h2>Módulos</h2>
+            <ul>
+                <li>- Ordem de Serviço</li>
+                <li>- Indicadores de Manutenção</li>
+            </ul>
+        </>
+    );
+
     useEffect(() => {
         setTextSolucao(textInicial)
     }, []);
@@ -285,6 +298,9 @@ export default function Solucoes(){
                 break;
             case('bi'): 
                 setTextSolucao(textBI); 
+                break;
+            case('manutAtivos'): 
+                setTextSolucao(textManutAtivos); 
                 break;
             default:
                 setTextSolucao(textInicial);
@@ -353,7 +369,10 @@ export default function Solucoes(){
                         <img alt="BI" src={bi} onClick={() => handleUpdateText('bi')}/>
                         <p>BI</p>
                     </div>
-                    <div className="sol-empty"/>
+                    <div className="sol-manutAtivos">
+                        <img alt="Manutenção de Ativos" src={manutAtivos} onClick={() => handleUpdateText('manutAtivos')}/>
+                        <p>Manutenção de Ativos</p>
+                    </div>
                 </div>
                 <div className="solution-text">
                     {textSolucao}

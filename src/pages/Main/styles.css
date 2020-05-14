@@ -3,7 +3,7 @@
 }
 
 .solutions {
-  height: 700px;
+  height: 950px;
   background-color: #f7f7f7;
 }
 
@@ -13,14 +13,22 @@
 
 .solutions .title h2 {
   color: #191970;
-  font: 700 32px Lato, sans-serif;
+  font: 700 32px Ubuntu, sans-serif;
   text-align: center;
   padding: 20px;
 }
 
+.solutions .title .evolution {
+  color: #701919;
+  font: 700 20px Ubuntu, sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
 .solutions .title p {
   color: #000;
-  font: 700 20px Lato, sans-serif;
+  font: 700 20px Ubuntu, sans-serif;
   text-align: center;
   padding: 20px;
   margin-bottom: 30px;
@@ -35,7 +43,7 @@
 .solutions button {
     cursor: pointer;
     height: 60px;
-    background: #780001;
+    background: #701919;
     border: 0;
     border-radius: 8px;
     margin-top: 16px;
@@ -51,13 +59,13 @@
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  font: 700 18px Lato, sans-serif;
+  font: 700 18px Ubuntu, sans-serif;
 }
 
 .solutions .buttons { 
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .solutions .buttons:hover{
@@ -73,10 +81,12 @@
   grid-auto-rows: 90px;
   grid-auto-columns: auto;
   grid-template-areas: 
-    "a a b b c c d d e e f f g g"
-    "a a b b c c d d e e f f g g"
-    "h h i i j j k k l l m m n n"
-    "h h i i j j k k l l m m n n";
+    "a a b b c c d d e e"
+    "a a b b c c d d e e"
+    "f f g g h h i i j j"
+    "f f g g h h i i j j"
+    "k k l l m m n n o o"
+    "k k l l m m n n o o";
   align-items: flex-start;
   justify-items: center;
 }
@@ -123,44 +133,50 @@
   flex-direction: column;
   align-items: center;
 }
-.gestaoPessoas {
+.manutAtivos {
   grid-area: h;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.medicina {
+.gestaoPessoas {
   grid-area: i;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.gestaoAmbiental {
+.medicina {
   grid-area: j;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.gestaoClinica {
+.gestaoAmbiental {
   grid-area: k;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.universal {
+.gestaoClinica {
   grid-area: l;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.crm {
+.universal {
   grid-area: m;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.BI {
+.crm {
   grid-area: n;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.BI {
+  grid-area: o;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -170,6 +186,6 @@
 .icons p {
   max-width: 140px;
   color: #000;
-  font: 700 18px Lato, sans-serif;
+  font: 700 18px Ubuntu, sans-serif;
   text-align: center;
 }

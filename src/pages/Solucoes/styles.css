@@ -36,7 +36,7 @@
 .solution-icons p {
   max-width: 140px;
   color: #000;
-  font: 700 18px Lato, sans-serif;
+  font: 700 18px Ubuntu, sans-serif;
   text-align: center;
 }
 
@@ -50,22 +50,22 @@
   margin-top: 30px;
   text-transform: uppercase;
   border-bottom: 2px solid #000;
-  font: 700 18px Lato, sans-serif;
+  font: 700 18px Ubuntu, sans-serif;
   width: 100%;
   margin-bottom: 20px;
 }
 
 .solution-text h3 {
-  color: #780001;
+  color: #701919;
   margin-top: 30px;
-  font: 700 14px Lato, sans-serif;
+  font: 700 16px Ubuntu, sans-serif;
   width: 100%;
   margin-bottom: 20px;
 }
 
 .solution-text p {
   text-align: justify;
-  font: 400 16px Lato, sans-serif;
+  font: 400 16px Ubuntu, sans-serif;
   line-height: 24px;
 }
 
@@ -75,12 +75,12 @@
 
 .solution-text ul li:first-of-type {
   text-align: justify;
-  font: 400 16px Lato, sans-serif;
+  font: 400 16px Ubuntu, sans-serif;
 }
 
 .solution-text ul li {
   text-align: justify;
-  font: 400 16px Lato, sans-serif;
+  font: 400 16px Ubuntu, sans-serif;
   margin: 0 0 10px;
 }
 
@@ -126,49 +126,49 @@
   flex-direction: column;
   align-items: center;
 }
-.sol-gestaoPessoas {
+.sol-manutAtivos {
   grid-area: h;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.sol-medicina {
+.sol-gestaoPessoas {
   grid-area: i;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.sol-gestaoAmbiental {
+.sol-medicina {
   grid-area: j;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.sol-gestaoClinica {
+.sol-gestaoAmbiental {
   grid-area: k;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.sol-universal {
+.sol-gestaoClinica {
   grid-area: l;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.sol-crm {
+.sol-universal {
   grid-area: m;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.sol-BI {
+.sol-crm {
   grid-area: n;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.sol-empty {
+.sol-BI {
   grid-area: o;
   display: flex;
   flex-direction: column;

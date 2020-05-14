@@ -14,7 +14,7 @@
 
 .main-container .institutional p {
   text-align: justify;
-  font: 400 18px Lato, sans-serif;
+  font: 400 18px Ubuntu, sans-serif;
   color: #fff;
   margin-left: 120px;
   margin-right: 120px;
@@ -35,7 +35,7 @@
   padding: 20px;
   border-style: solid;
   border-radius: 8px;
-  border-color: #780001;
+  border-color: #701919;
 }
 
 .main-container .below-panel div:first-of-type {
@@ -48,10 +48,10 @@
 
 .main-container .below-panel h2 {
   padding-bottom: 5px;
-  font: 600 18px Lato, sans-serif;
+  font: 600 18px Ubuntu, sans-serif;
   text-transform: uppercase;
   text-align: center;
-  color: #780001;
+  color: #701919;
   margin-bottom: 10px;
 }
 
@@ -61,12 +61,12 @@
   margin: 0 auto;
   width: 50%;
   padding-top: 10px;
-  border-bottom: 2px solid #780001;
+  border-bottom: 2px solid #701919;
 }
 
 .main-container .below-panel p {
   text-align: justify;
-  font: 400 16px Lato, sans-serif;
+  font: 400 16px Ubuntu, sans-serif;
 }
 
 .main-container .below-panel ul {
@@ -75,11 +75,11 @@
 
 .main-container .below-panel ul li:first-of-type {
   text-align: justify;
-  font: 400 16px Lato, sans-serif;
+  font: 400 16px Ubuntu, sans-serif;
 }
 
 .main-container .below-panel ul li {
   text-align: justify;
-  font: 400 16px Lato, sans-serif;
+  font: 400 16px Ubuntu, sans-serif;
   margin: 0 0 10px;
 }

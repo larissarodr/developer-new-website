@@ -10,13 +10,13 @@ header .links {
   margin-left: auto;
   padding: 4px;
   align-items: center;
-  background: #780001;
+  background: #701919;
   width: 100%;
   justify-content: flex-end;
 }
 
 header .links a {
-  font: 400 14px Lato, sans-serif;
+  font: 400 14px Ubuntu, sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 800;

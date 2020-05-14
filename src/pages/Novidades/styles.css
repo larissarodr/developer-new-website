@@ -1,6 +1,6 @@
 .wrap-collabsible {        
   margin-bottom: 1.2rem 0;
-  font: 400 16px Lato, sans-serif;
+  font: 400 16px Ubuntu, sans-serif;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -21,13 +21,13 @@ svg {
 
 .novidades p:first-of-type {
   margin-top: 30px;
-  color: #780001;
-  font: 700 14px Lato, sans-serif;
+  color: #701919;
+  font: 700 14px Ubuntu, sans-serif;
 }
 
 .novidades p {
   max-width: 55%;
-  font: 400 16px Lato, sans-serif;
+  font: 400 16px Ubuntu, sans-serif;
   text-align: center;
 }
 
@@ -41,7 +41,7 @@ input[type="checkbox"] {
 
 .lbl-toggle {      
   display: block;                                              
-  font: 700 18px Lato, sans-serif;                                               
+  font: 700 18px Ubuntu, sans-serif;                                               
   text-transform: uppercase;                                       
   text-align: left;                                               
   padding:0.5rem;
@@ -94,7 +94,7 @@ input[type="checkbox"] {
 }       
 
 .tabelaVersao {                                              
-  font: 400 18px Lato, sans-serif; 
+  font: 400 18px Ubuntu, sans-serif; 
   border-collapse: collapse;                                 
   text-align: left;                                          
   width: 100%;                                               
@@ -112,14 +112,14 @@ input[type="checkbox"] {
   border-bottom: 2px solid #000;
   margin-top: 10px;
   margin-bottom: 10px;
-  font: 700 18px Lato, sans-serif;
+  font: 700 18px Ubuntu, sans-serif;
 }
 
 .title-news {
   border-bottom: 2px solid #000;
   margin-top: 30px;
   margin-bottom: 10px;
-  font: 700 18px Lato, sans-serif;
+  font: 700 18px Ubuntu, sans-serif;
 }
 
 .items {
@@ -134,7 +134,7 @@ input[type="checkbox"] {
 }
 
 .items p {
-  font: 700 16px Lato, sans-serif;
+  font: 700 16px Ubuntu, sans-serif;
   margin-bottom: 10px;
   margin-top: 10px;
 }
