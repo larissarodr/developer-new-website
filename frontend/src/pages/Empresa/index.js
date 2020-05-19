@@ -6,8 +6,6 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Menu from '../../components/Menu';
 
-import MVV from '../../assets/teste.png';
-
 export default function Empresa(){
     return (
         <>
@@ -28,7 +26,7 @@ export default function Empresa(){
                     </div>
 
                     <div className="message-panel">
-                        <h1>Mensagem do CEO</h1>
+                        <h1>Mensagem DEVELOPER SOFTWARE</h1>
                         <p>Prezados Clientes e Fornecedores.</p>
 
                         <p>Em 2001 fundamos a DEVELOPER SOFTWARE, uma empresa consolidada no mercado de software e que atua apoiando o crescimento das organizações. Em todo este tempo de atuação passamos por muitas transformações e criamos soluções corporativas que aperfeiçoam os processos de negócios dos nossos clientes.</p>

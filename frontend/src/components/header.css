@@ -27,3 +27,15 @@ header .links a {
 header a svg {
   margin-right: 4px;
 }
+
+header .links p {
+  font: 400 14px Ubuntu, sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-right: 20px;
+  color: #ededed;
+}
+
+header p svg {
+  margin-right: 4px;
+}
