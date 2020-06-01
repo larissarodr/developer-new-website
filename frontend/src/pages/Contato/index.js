@@ -73,7 +73,13 @@ export default function Profissionais(){
             </div>
             <div className="item">
               <h1>Financeiro</h1>
+              <p><FiPhone size={16} color="#000"/> (47) 3028-2711</p>
               <p><FiAtSign size={16} color="#000"/>financeiro@developer.inf.br</p>
+            </div>
+            <div className="item">
+              <h1>Recursos Humanos</h1>
+              <p><FiPhone size={16} color="#000"/> (47) 3028-2711</p>
+              <p><FiAtSign size={16} color="#000"/>rh@developer.inf.br</p>
             </div>
           </div>
           <div className="section-two">
@@ -101,7 +107,7 @@ export default function Profissionais(){
             </form>
           </div>
         </div>
-        <div class="push"/>
+        <div className="push"/>
       </div>
       <Footer/>
     </>

@@ -1,3 +1,7 @@
+.animate__animated.animate__bounce {
+  --animate-duration: 7s;
+}
+
 .first-image img {
   max-width: 100%;
 }
@@ -48,6 +52,7 @@
     border-radius: 8px;
     margin-top: 16px;
     display: flex;
+    align-items: center;
     font-weight: 800;
     line-height: 60px;
     transition: filter 0.2s;
@@ -68,7 +73,7 @@
   margin-top: 5px;
 }
 
-.solutions .buttons:hover{
+.solutions button:hover{
   filter: brightness(90%)
 }
 
@@ -91,97 +96,57 @@
   justify-items: center;
 }
 
-.financeiro {
-  grid-area: a;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.comercial {
-  grid-area: b;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.logistica {
-  grid-area: c;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.producao {
-  grid-area: d;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.servico {
-  grid-area: e;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.fiscal {
-  grid-area: f;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.controleQualidade {
-  grid-area: g;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.manutAtivos {
-  grid-area: h;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.gestaoPessoas {
-  grid-area: i;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.medicina {
-  grid-area: j;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.gestaoAmbiental {
-  grid-area: k;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.gestaoClinica {
-  grid-area: l;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.universal {
-  grid-area: m;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.crm {
-  grid-area: n;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.BI {
-  grid-area: o;
+.fade-in-section.is-visible {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.financeiro {
+  grid-area: a;
+}
+.comercial {
+  grid-area: b;
+}
+.logistica {
+  grid-area: c;
+}
+.producao {
+  grid-area: d;
+}
+.servico {
+  grid-area: e;
+}
+.fiscal {
+  grid-area: f;
+}
+.controleQualidade {
+  grid-area: g;
+}
+.manutAtivos {
+  grid-area: h;
+}
+.gestaoPessoas {
+  grid-area: i;
+}
+.medicina {
+  grid-area: j;
+}
+.gestaoAmbiental {
+  grid-area: k;
+}
+.gestaoClinica {
+  grid-area: l;
+}
+.universal {
+  grid-area: m;
+}
+.crm {
+  grid-area: n;
+}
+.BI {
+  grid-area: o;
+}
 
 .icons p {
   max-width: 140px;

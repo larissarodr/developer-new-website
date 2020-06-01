@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { FiGrid, FiFileText, FiCalendar } from 'react-icons/fi'
+import api from '../../services/api';
+import Moment from 'react-moment';
 
 import './styles.css';
 
@@ -8,40 +10,14 @@ import Footer from '../../components/Footer';
 import Menu from '../../components/Menu';
 
 export default function AreaCliente(){
-    const systems = [{
-        name: "Financeiro",
-        news: [{
-            name: "Relatório Fluxo de Caixa Realizado - Parâmetro Quebra Página",
-            description: "Implementado parâmetro no relatório Fluxo de Caixa Realizado para permitir gerar o relatório sem quebrar de página por dia.",
-            date: "11/05/2020",
-            version: "149"
-        }],
-        modules: ["Planejamento Orçamentário","Contas a Receber","Cobrança Escritural","Contas a Pagar","Pagamento Escritural","Conciliação Bancária","Fluxo de Caixa","Análise de Resultado","Lançamento Contábil"]
-    }, {
-        name: "Produção",
-        news: [{
-            name: "Planilha x Ordem Produção - Lista Componente",
-            description: "Criado um parâmetro para indicar se a empresa deve gerar na importação a lista de componentes do PA ou SA juntamente com os recursos informados na planilha.",
-            date: "10/05/2020",
-            version: "150"
-        }, {
-            name: "Planilha x Ordem - Reserva Programada Automática",
-            description: "Criado um parâmetro para indicar se deve realizar a Reserva Programada para os recursos da Ordem de Produção.",
-            date: "10/02/2020",
-            version: "151"
-        }],
-        modules: ["Engenharia","Configurador Produto","Planejamento Produção","Controle Produção","Integração Projeto CAD"]
-    }, {
-        name: "Comercial",
-        news: [{
-            name: "Relatório Inatividade Compra Cliente",
-            description: " Criado Flag para indicar se deve ou não listar os Clientes sem Compras ou somente os que não possuem dívida no Financeiro.",
-            date: "10/04/2020",
-            version: "148"
-        }],
-        modules: ["Orçamento","Pedido Venda","Faturamento","Comissão Venda","NF-e Produto","NFS-e Serviço","CC-e Carta Correção","MDF-e Manif. Doc. Fisc."]
-    }];
 
+    const [systems, setSystems] = useState([]);
+
+    useEffect(() => {
+        api.get('news').then(response => {
+            setSystems(response.data.systems);
+        })
+    }, []);
 
     return (
         <>
@@ -75,19 +51,19 @@ export default function AreaCliente(){
                                     </nav>
                                 </div>                                                                            
                                 <h4 className="title-news"><FiFileText size={18} color="#000"/>NOVIDADES</h4>
-                                {system.news.map((item, index) => (
+                                {system.news.length ? system.news.map((item, index) => (
                                     <div key={index}>
                                         <div className="items">
-                                            <p className="item-title">{item.name}</p>
-                                            <p><FiCalendar size={18} color="#000"/> {item.date}</p>
+                                            <p className="item-title">- {item.name}</p>
+                                            <p><FiCalendar size={18} color="#000"/> <Moment format="DD/MM/YYYY">{item.date}</Moment></p>
                                             <p>Versão: {item.version}</p> 
                                         </div>
                                         <div className="items-description" key={index}>
-                                            <p>{item.description}</p> 
+                                            <p>{item.description.split('&lt;p&gt;').join('').split('&lt;/p&gt;').join('').split('&lt;br /&gt;').join('\n').split('&#226;').join('â').split('&#224;').join('à').split('&#225;').join('á').split('&#227;').join('ã').split('&#231;').join('ç').split('&#233;').join('é').split('&#234;').join('ê').split('&#237;').join('í').split('&#245;').join('õ').split('&#243;').join('ó').split('&#244;').join('ô').split('&#250;').join('ú').split('&#160;').join(' ').split('&#8220;').join('"').split('&#8221;').join('"')}</p> 
                                         </div>
                                         <hr/>
                                     </div>
-                                ))}
+                                )) : <p>Nenhuma novidade para este módulo.</p>}
                                 <br/>
                                 <br/>                    
                             </div>

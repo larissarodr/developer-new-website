@@ -44,7 +44,8 @@ footer .footerInfo ul li a:hover {
   text-decoration: underline;
 }
 
-footer .footerInfo div {
+footer .footerInfo .logo ,
+footer .footerInfo .links  {
   margin-right: 100px;
 }
 
@@ -81,8 +82,6 @@ footer .footerInfo .contact-footer svg {
 }
 
 footer .copyright {
-  margin-top: 10px;
-  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   font: 400 14px Ubuntu, sans-serif;

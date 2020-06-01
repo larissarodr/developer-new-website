@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './styles.css';
+import "animate.css/animate.min.css";
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
@@ -12,38 +13,60 @@ export default function Empresa(){
             <div className="wrapper">
                 <Header/>
                 <Menu/>
-                <div className="top-content">
-                    <p>A DEVELOPER possui um grande portfólio de soluções para distribuidores, atacadistas, prestadores de serviços, indústrias de manufatura não seriada, manufatura seriada, prestadores de serviços de medicina e segurança do trabalho, entre outros segmentos de negócios, fazendo definitivamente a diferença para seus clientes.</p>
-                </div>
+                
                 <div className="main-container">
-                    <div className="history-content">
-                        <h1>Histórico</h1>
-                        <ul>
-                            <li>Com respeito, qualidade, inovação e comprometimento. Foi desta forma que a DEVELOPER SOFTWARE nasceu, atuando de forma séria, íntegra e consistente.</li>
-                            <li>Fundada em 2001, a DEVELOPER SOFTWARE iniciou suas atividades atuando como fábrica de software e provedora de serviços profissionais especializados para outras empresas de software corporativo.</li>
-                            <li>A partir de 2004, iniciou o desenvolvimento de sua solução corporativa denominada DEVELOPER Gestão Empresarial, realizando um grande investimento para a criação de sua solução ERP (Enterprise Resource Planning) com o objetivo de simplificar, integrar, flexibilizar, agilizar e permitir integridade dos processos e informações de gestão do negócio de seus clientes.</li>
-                        </ul>
+                    
+                    <div className="animate__animated animate__fadeIn">
+                        
+                        <div className="history-content">
+                            <h1>Sobre a DEVELOPER SOFTWARE</h1>
+                            <p>Com respeito, qualidade, inovação e comprometimento. Foi desta forma que a 
+                                    DEVELOPER SOFTWARE nasceu, atuando de forma séria, íntegra e consistente.</p>
+                            <br/>
+                            <p>Fundada em 2001, a DEVELOPER SOFTWARE iniciou suas atividades atuando como 
+                                fábrica de software e provedora de serviços profissionais especializados 
+                                para outras empresas de software corporativo.</p>
+                            <br/>
+                            <p>A partir de 2004, iniciou o desenvolvimento de sua solução corporativa 
+                                denominada DEVELOPER Gestão Empresarial, realizando um grande investimento 
+                                para a criação de sua solução ERP (Enterprise Resource Planning) com o 
+                                objetivo de simplificar, integrar, flexibilizar, agilizar e permitir integridade 
+                                dos processos e informações de gestão do negócio de seus clientes.</p>
+                            <br/>
+                            <p>Hoje, a DEVELOPER possui um grande portfólio de soluções para distribuidores, 
+                                atacadistas, prestadores de serviços, indústrias de manufatura não seriada, 
+                                manufatura seriada, prestadores de serviços de medicina e segurança do trabalho, 
+                                entre outros segmentos de negócios, fazendo definitivamente a diferença para seus clientes.</p>
+                            <br/>
+                            <p>A DEVELOPER SOFTWARE conta com um time de profissionais especialistas em engenharia 
+                                de software e com vasta experiência no segmento de soluções corporativas, desenvolvendo 
+                                e implantando software de gestão aos seus clientes.</p>
+                            
+                            <h2>Missão</h2>
+                            <p>Prover soluções de excelência em software, agregando alto valor ao negócio do cliente</p>
+                            <h2>Visão</h2>
+                            <p>- Ser reconhecida como uma empresa que faz a diferença
+                                <br/>- Ser uma empresa sem fronteiras</p>
+                            <h2>Valores</h2>
+                            <p>Foco no cliente, integridade, comprometimento, qualidade, inovação, flexibilidade e responsabilidade</p>
+                            
+                        </div>
+                        <div className="animate__animated animate__fadeInRight">
+                            <div className="circles">
+                                <div className="items">
+                                    <p>19 anos no mercado</p>
+                                </div>
+                                <div className="items">
+                                    <p>Incessante busca pela qualidade e inovação</p>
+                                </div>
+                                <div className="items">
+                                    <p>Responsabilidade, comprometimento e foco no cliente</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-                    <div className="message-panel">
-                        <h1>Mensagem DEVELOPER SOFTWARE</h1>
-                        <p>Prezados Clientes e Fornecedores.</p>
-
-                        <p>Em 2001 fundamos a DEVELOPER SOFTWARE, uma empresa consolidada no mercado de software e que atua apoiando o crescimento das organizações. Em todo este tempo de atuação passamos por muitas transformações e criamos soluções corporativas que aperfeiçoam os processos de negócios dos nossos clientes.</p>
-
-                        <p>Somos uma empresa que trabalha com muita seriedade, responsabilidade e estamos comprometidos com o negócio de nossos clientes, uma vez que nosso produto participa da vida operacional e estratégica das organizações que o utilizam. Somos uma empresa sem fronteiras, no que concerne à tecnologia e mercado de atuação e, definitivamente buscamos fazer a diferença nos negócios de nossos clientes.</p>
-
-                        <p>Conte sempre conosco.</p>
-
-                        <p>Um cordial abraço.</p>
-
-                        <p>Juliano Cesar Rodrigues</p>
-                        <p>Fundador e CEO da DEVELOPER SOFTWARE</p>
-                      
-                    </div>
-
                 </div>
-                <div class="push"/>
+                <div className="push"/>
             </div>
             
             <Footer/>

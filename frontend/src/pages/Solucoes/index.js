@@ -40,8 +40,8 @@ export default function Solucoes(){
     const textFinanceiro = (
         <>
             <h2>Financeiro</h2>
-            <p>- Gerencia todas as atividades do controle financeiro da empresa, permitindo uma visão 
-                completa e detalhada da situação financeira da empresa.</p>
+            <p>- Proporciona o gerenciamento de todas as atividades do controle financeiro da empresa, permitindo 
+                uma visão completa e detalhada da situação financeira da empresa.</p>
             <h2>Módulos</h2>
             <ul>
                 <li>- Planejamento Orçamentário</li>
@@ -60,10 +60,11 @@ export default function Solucoes(){
     const textProducao = (
         <>
             <h2>Produção</h2>
-            <p>- Proporciona o controle efetivo e seguro dos processos, desde a engenharia do produto 
-                até o controle do chão-de-fábrica.
-                <br/>- Possibilita uma visão completa e detalhada da área fabril, permitindo 
-                controle e acompanhamento de todas as etapas de produção.</p>
+            <p>- Proporciona o controle efetivo e seguro dos processos, etapas, listas de componentes e apontamentos 
+                de mão-de-obra desde a engenharia do produto até o controle do chão-de-fábrica. 
+            <br/>- Atende as características das manufaturas de processo e discreta, assim como das manufaturas não seriada ou por projeto.
+            <br/>- Possibilita uma visão completa e detalhada da área fabril, permitindo controle e 
+            acompanhamento de todas as etapas de produção.</p>
             <h2>Módulos</h2>
             <ul>
                 <li>- Engenharia</li>
@@ -78,9 +79,8 @@ export default function Solucoes(){
     const textComercial  = (
         <>
             <h2>Comercial</h2>
-            <p>- Proporciona o gerenciamento de orçamentos, pedidos de venda, 
-                faturamento e, por conseguinte a geração de títulos no financeiro e carga de 
-                estoque no sistema Logística.</p>
+            <p>- Proporciona o gerenciamento de orçamentos, pedidos de venda, faturamento e, 
+                por conseguinte a geração de títulos no financeiro e carga de estoque no sistema Logística.</p>
             <h2>Módulos</h2>
             <ul>
                 <li>- Orçamento</li>
@@ -99,9 +99,8 @@ export default function Solucoes(){
     const textLogistica  = (
         <>
             <h2>Logística</h2>
-            <p>- Proporciona o gerenciamento das entradas de mercadorias, 
-                controle da movimentação de estoque, inventário dos estoques e gerenciamento 
-                de pedidos de compra.</p>
+            <p>- Proporciona o gerenciamento das entradas de mercadorias, controle da movimentação 
+                de estoque, inventário dos estoques e gerenciamento de pedidos de compra.</p>
             <h2>Módulos</h2>
             <ul>
                 <li>- Compras</li>
@@ -116,7 +115,9 @@ export default function Solucoes(){
     const textServico  = (
         <>
             <h2>Serviço</h2>
-            <p>- Proporciona o gerenciamento de orçamentos e as ordens de serviço da organização.</p>
+            <p>- Proporciona o gerenciamento de orçamentos e das ordens de serviço da organização.
+            <br/>- A partir dos apontamentos dos itens e da mão-de-obra utilizadas na ordem de serviço em questão, 
+            é possível gerar a nota fiscal de produto (NF-e) e de serviço (NFS-e) de forma automática.</p>
             <h2>Módulos</h2>
             <ul>
                 <li>- Orçamento</li>
@@ -128,7 +129,11 @@ export default function Solucoes(){
     const textControleQualidade  = (
         <>
             <h2>Controle de Qualidade</h2>
-            <p>- ALTERAR ESTE TEXTO.</p>
+            <p>- Proporciona a rastreabilidade total dos processos de recebimento, produção e expedição.
+            <br/>- Registra as informações de lotes e análises de matéria-prima, produtos semi-acabados e produtos acabados, 
+            permitindo também obter as respostas dos questionamentos abaixo.
+            <br/>- Tracking: os lotes de matéria-primas foram consumidas para gerar quais lotes de produtos?
+            <br/>- Tracing: os lotes de produtos foram produzidos consumindo quais matéria-primas?</p>
             <h2>Módulos</h2>
             <ul>
                 <li>- CQ Recebimento</li>
@@ -141,7 +146,10 @@ export default function Solucoes(){
     const textFiscal  = (
         <>
             <h2>Fiscal</h2>
-            <p>- ALTERAR ESTE TEXTO.</p>
+            <p>- Proporciona a geração das informações fiscais exigidas pelo Fisco pelo layout 
+                do SPED (Sistema Público de Escrituração Digital).
+            <br/>- Estas informações são enviadas para o sistema de Contabilidade para posterior envio ao Fisco 
+            em conjunto com outras informações da própria Contabilidade.</p>
             <h2>Módulos</h2>
             <ul>
                 <li>- SPED Fiscal</li>
@@ -152,7 +160,10 @@ export default function Solucoes(){
     const textUniversal  = (
         <>
             <h2>Universal</h2>
-            <p>- ALTERAR ESTE TEXTO.</p>
+            <p>- Proporciona o cadastramento de todas as tabelas que são universais, ou seja, que 
+                são utilizadas por mais de um sistema (não específicas do sistema).
+            <br/>- Também proporciona o gerenciamento e controle de segurança do sistema, possibilitando 
+            a criação de menus com perfis adequados, além de criações de grupo de usuários e os próprios usuários.</p>
             <h2>Módulos</h2>
             <ul>
                 <li>- Parâmetro Geral</li>
@@ -164,7 +175,7 @@ export default function Solucoes(){
     const textBI  = (
         <>
             <h2>BI</h2>
-            <p>- ALTERAR ESTE TEXTO.</p>
+            <p>- Proporciona ao empresário uma rápida tomada de decisão com base em informações estratégicas obtidas dos demais sistemas de gestão.</p>
             <h2>Módulos</h2>
             <ul>
                 <li>- Business Monitor</li>
@@ -175,11 +186,7 @@ export default function Solucoes(){
     const textGestaoPessoas  = (
         <>
             <h2>Gestão de Pessoas</h2>
-            <p>- Proporciona o acompanhamento e controle dos profissionais que atuam na 
-                organização. 
-            <br/>Gerencia os processos que visam a garantia da saúde e integridade do trabalhador. 
-                Atende a legislação vigente permitindo que a empresa esteja em dia com suas obrigações 
-                juntos aos trabalhadores.</p>
+            <p>- Proporciona o acompanhamento e controle dos profissionais que atuam na organização.</p>
             <h2>Módulos</h2>
             <ul>
                 <li>- Controle de RH</li>
@@ -190,7 +197,10 @@ export default function Solucoes(){
     const textMedicina  = (
         <>
             <h2>Medicina e Segurança de Trabalho</h2>
-            <p>- ALTERAR ESTE TEXTO.</p>
+            <p>- Proporciona o gerenciamento dos processos que visam a garantia da saúde e integridade do trabalhador. 
+            Atende a legislação vigente permitindo que a empresa esteja em dia com suas obrigações juntos aos trabalhadores.</p>
+            <br/>- Proporciona o gerenciamento dos contratos com clientes e fornecedores para empresas prestadoras de serviço.
+            <br/>- Proporciona a cobrança pelos atendimentos realizados para empresas prestadoras de serviço.
             <h2>Módulos</h2>
             <ul>
                 <li>- Controle de Agenda</li>
@@ -206,7 +216,8 @@ export default function Solucoes(){
     const textGestaoAmbiental  = (
         <>
             <h2>Gestão Ambiental</h2>
-            <p>- ALTERAR ESTE TEXTO.</p>
+            <p>- Proporciona o gerenciamento dos Manifestos de Transporte de Resíduos e Certificados de Destinação Final de Resíduos.</p>
+            <br/>- Proporciona a cobrança pelos resíduos destinados.
             <h2>Módulos</h2>
             <ul>
                 <li>- Gestão de Resíduos</li>
@@ -217,10 +228,13 @@ export default function Solucoes(){
     const textGestaoClinica  = (
         <>
             <h2>Gestão Clínica</h2>
-            <p>- ALTERAR ESTE TEXTO.</p>
+            <p>- Proporciona o gerenciamento de agendas, pacientes e atendimentos realizados na clínica.</p>
+            <br/>- Proporciona o gerenciamento dos contratos com clientes e fornecedores.
+            <br/>- Proporciona o gerenciamento da comissão dos profissionais envolvidos nos atendimentos.
             <h2>Módulos</h2>
             <ul>
                 <li>- Controle de Agenda</li>
+                <li>- Controle de Contrato</li>
                 <li>- Gestão de Convênio</li>
             </ul>
         </>
@@ -229,11 +243,16 @@ export default function Solucoes(){
     const textCrm  = (
         <>
             <h2>CRM</h2>
-            <p>- ALTERAR ESTE TEXTO.</p>
+            <p>- Proporciona o gerenciamento das oportunidades de negócio, gestão dos leads e clientes com 
+                programação de contatos, controle de atividades e painéis estatísticos com os resultados da 
+                empresa e equipe de vendas.</p>
             <h2>Módulos</h2>
             <ul>
-                <li>- Gerenciamento de Oportunidade</li>
-                <li>- Estatística</li>
+                <li>- Gerenciamento das Oportunidades</li>
+                <li>- Gerenciamento de Leads e Contas</li>
+                <li>- Controle de Atividades</li>
+                <li>- Estatísticas da Empresa e Equipe de Vendas</li>
+
             </ul>
         </>
     );
@@ -241,7 +260,8 @@ export default function Solucoes(){
     const textManutAtivos  = (
         <>
             <h2>Manutenção de Ativos</h2>
-            <p>- ALTERAR ESTE TEXTO.</p>
+            <p>- Proporciona o gerenciamento das manutenções realizadas nos equipamentos da empresa.</p>
+            <br/>- Proporciona ao empresário uma rápida tomada de decisão com base em indicadores de manutenção obtidos a partir das Ordens de Servico lançadas.
             <h2>Módulos</h2>
             <ul>
                 <li>- Ordem de Serviço</li>
@@ -252,6 +272,7 @@ export default function Solucoes(){
 
     useEffect(() => {
         setTextSolucao(textInicial)
+        window.scrollTo(0,0);
     }, []);
 
 
@@ -312,71 +333,72 @@ export default function Solucoes(){
             <Header/>
             <Menu/>
             <div className="outside-container">
-                <div className="solution-icons">
-                    <div className="sol-financeiro">
-                        <img alt="Financeiro" src={financeiro} onClick={() => handleUpdateText('financeiro')}/>
-                        <p>Financeiro</p>
-                    </div>
-                    <div className="sol-comercial">
-                        <img alt="Comercial" src={comercial} onClick={() => handleUpdateText('comercial')}/>
-                        <p>Comercial</p>
-                    </div>
-                    <div className="sol-logistica">
-                        <img alt="Logística" src={logistica} onClick={() => handleUpdateText('logistica')}/>
-                        <p>Logística</p>
-                    </div>
-                    <div className="sol-producao">
-                        <img alt="Produção" src={producao} onClick={() => handleUpdateText('producao')}/>
-                        <p>Produção</p>
-                    </div>
-                    <div className="sol-servico">
-                        <img alt="Serviço" src={servico} onClick={() => handleUpdateText('servico')}/>
-                        <p>Serviço</p>
-                    </div>
-                    <div className="sol-controleQualidade">
-                        <img alt="Controle de Qualidade" src={controleQualidade} onClick={() => handleUpdateText('controleQualidade')}/>
-                        <p>Controle de Qualidade</p>
-                    </div>
-                    <div className="sol-gestaoPessoas">
-                        <img alt="Gestão de Pessoas" src={gestaoPessoas} onClick={() => handleUpdateText('gestaoPessoas')}/>
-                        <p>Gestão de Pessoas</p>
-                    </div>
-                    <div className="sol-medicina">
-                        <img alt="Medicina e Segurança do Trabalho" src={medicina} onClick={() => handleUpdateText('medicina')}/>
-                        <p>Medicina e Segurança do Trabalho</p>
-                    </div>
-                    <div className="sol-gestaoAmbiental">
-                        <img alt="Gestão Ambiental" src={gestaoAmbiental} onClick={() => handleUpdateText('gestaoAmbiental')}/>
-                        <p>Gestão Ambiental</p>
-                    </div>
-                    <div className="sol-gestaoClinica">
-                        <img alt="Gestão Clínica" src={gestaoClinica} onClick={() => handleUpdateText('gestaoClinica')}/>
-                        <p>Gestão Clínica</p>
-                    </div>
-                    <div className="sol-fiscal">
-                        <img alt="Fiscal" src={fiscal} onClick={() => handleUpdateText('fiscal')}/>
-                        <p>Fiscal</p>
-                    </div>
-                    <div className="sol-crm">
-                        <img alt="CRM" src={crm} onClick={() => handleUpdateText('crm')}/>
-                        <p>CRM</p>
-                    </div>
-                    <div className="sol-universal">
-                        <img alt="Universal" src={universal} onClick={() => handleUpdateText('universal')}/>
-                        <p>Universal</p>
-                    </div>
-                    <div className="sol-bi">
-                        <img alt="BI" src={bi} onClick={() => handleUpdateText('bi')}/>
-                        <p>BI</p>
-                    </div>
-                    <div className="sol-manutAtivos">
-                        <img alt="Manutenção de Ativos" src={manutAtivos} onClick={() => handleUpdateText('manutAtivos')}/>
-                        <p>Manutenção de Ativos</p>
+                <div className="animate__animated animate__fadeIn">
+                    <div className="solution-icons" >
+                        <div className="sol-financeiro">
+                            <img alt="Financeiro" src={financeiro} onClick={() => handleUpdateText('financeiro')}/>
+                            <p>Financeiro</p>
+                        </div>
+                        <div className="sol-comercial">
+                            <img alt="Comercial" src={comercial} onClick={() => handleUpdateText('comercial')}/>
+                            <p>Comercial</p>
+                        </div>
+                        <div className="sol-logistica">
+                            <img alt="Logística" src={logistica} onClick={() => handleUpdateText('logistica')}/>
+                            <p>Logística</p>
+                        </div>
+                        <div className="sol-producao">
+                            <img alt="Produção" src={producao} onClick={() => handleUpdateText('producao')}/>
+                            <p>Produção</p>
+                        </div>
+                        <div className="sol-servico">
+                            <img alt="Serviço" src={servico} onClick={() => handleUpdateText('servico')}/>
+                            <p>Serviço</p>
+                        </div>
+                        <div className="sol-controleQualidade">
+                            <img alt="Controle de Qualidade" src={controleQualidade} onClick={() => handleUpdateText('controleQualidade')}/>
+                            <p>Controle de Qualidade</p>
+                        </div>
+                        <div className="sol-gestaoPessoas">
+                            <img alt="Gestão de Pessoas" src={gestaoPessoas} onClick={() => handleUpdateText('gestaoPessoas')}/>
+                            <p>Gestão de Pessoas</p>
+                        </div>
+                        <div className="sol-medicina">
+                            <img alt="Medicina e Segurança do Trabalho" src={medicina} onClick={() => handleUpdateText('medicina')}/>
+                            <p>Medicina e Segurança do Trabalho</p>
+                        </div>
+                        <div className="sol-gestaoAmbiental">
+                            <img alt="Gestão Ambiental" src={gestaoAmbiental} onClick={() => handleUpdateText('gestaoAmbiental')}/>
+                            <p>Gestão Ambiental</p>
+                        </div>
+                        <div className="sol-gestaoClinica">
+                            <img alt="Gestão Clínica" src={gestaoClinica} onClick={() => handleUpdateText('gestaoClinica')}/>
+                            <p>Gestão Clínica</p>
+                        </div>
+                        <div className="sol-fiscal">
+                            <img alt="Fiscal" src={fiscal} onClick={() => handleUpdateText('fiscal')}/>
+                            <p>Fiscal</p>
+                        </div>
+                        <div className="sol-crm">
+                            <img alt="CRM" src={crm} onClick={() => handleUpdateText('crm')}/>
+                            <p>CRM</p>
+                        </div>
+                        <div className="sol-universal">
+                            <img alt="Universal" src={universal} onClick={() => handleUpdateText('universal')}/>
+                            <p>Universal</p>
+                        </div>
+                        <div className="sol-bi">
+                            <img alt="BI" src={bi} onClick={() => handleUpdateText('bi')}/>
+                            <p>BI</p>
+                        </div>
+                        <div className="sol-manutAtivos">
+                            <img alt="Manutenção de Ativos" src={manutAtivos} onClick={() => handleUpdateText('manutAtivos')}/>
+                            <p>Manutenção de Ativos</p>
+                        </div>
                     </div>
                 </div>
                 <div className="solution-text">
                     {textSolucao}
-                
                 </div>
             </div>
             

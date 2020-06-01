@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import "animate.css/animate.min.css";
 import './styles.css';
 
 import Header from '../../components/Header';
 import Menu from '../../components/Menu';
 import Footer from '../../components/Footer';
+import FadeInSection from '../../components/FadeInSection';
 
 import mainImg from '../../assets/handsChartDarker.jpg'
 
@@ -33,83 +34,121 @@ export default function Main(){
                 <Header/>
                 <Menu/>
                 <div className="first-image">
-                    <img alt="Developer Software" className="mySlides" src={mainImg}/>
+                    <img alt="Developer Software" src={mainImg} className="animate__animated animate__fadeInRight"/>
                 </div>
                 <div className="solutions">
                     <div className="title">
-                        <h2>DEVELOPER Gestão Empresarial</h2>
-                        <p className="evolution">Uma evolução tecnológica constante...</p>
-                        <p>Encontre a melhor solução para o seu negócio</p>
+                        <FadeInSection>
+                            <h2>DEVELOPER Gestão Empresarial</h2>
+                        </FadeInSection>
+                        <FadeInSection>
+                            <p className="evolution">Uma evolução tecnológica constante...</p>
+                        </FadeInSection>
+                        <FadeInSection>
+                            <p>Encontre a melhor solução para o seu negócio</p>
+                        </FadeInSection>
                     </div>
                     <div className="icons">
-                        <div className="financeiro">
-                            <img alt="Financeiro" src={financeiro}/>
-                            <p>Financeiro</p>
-                        </div>
+                            <div className="financeiro">
+                                <FadeInSection>
+                                    <img alt="Financeiro" src={financeiro}/>
+                                    <p>Financeiro</p>
+                                </FadeInSection>
+                            </div>
                         <div className="comercial">
-                            <img alt="Comercial" src={comercial}/>
-                            <p>Comercial</p>
+                            <FadeInSection>
+                                <img alt="Comercial" src={comercial}/>
+                                <p>Comercial</p>
+                            </FadeInSection>
                         </div>
                         <div className="logistica">
-                            <img alt="Logística" src={logistica}/>
-                            <p>Logística</p>
+                            <FadeInSection>
+                                <img alt="Logística" src={logistica}/>
+                                <p>Logística</p>
+                            </FadeInSection>
                         </div>
                         <div className="producao">
-                            <img alt="Produção" src={producao}/>
-                            <p>Produção</p>
+                            <FadeInSection>
+                                <img alt="Produção" src={producao}/>
+                                <p>Produção</p>
+                            </FadeInSection>
                         </div>
                         <div className="servico">
-                            <img alt="Serviço" src={servico}/>
-                            <p>Serviço</p>
+                            <FadeInSection>
+                                <img alt="Serviço" src={servico}/>
+                                <p>Serviço</p>
+                            </FadeInSection>
                         </div>
                         <div className="controleQualidade">
-                            <img alt="Controle de Qualidade" src={controleQualidade}/>
-                            <p>Controle de Qualidade</p>
+                            <FadeInSection>
+                                <img alt="Controle de Qualidade" src={controleQualidade}/>
+                                <p>Controle de Qualidade</p>
+                            </FadeInSection>
                         </div>
                         <div className="fiscal">
-                            <img alt="Fiscal" src={fiscal}/>
-                            <p>Fiscal</p>
+                            <FadeInSection>
+                                <img alt="Fiscal" src={fiscal}/>
+                                <p>Fiscal</p>
+                            </FadeInSection>
                         </div>
                         <div className="gestaoPessoas">
-                            <img alt="Gestão de Pessoas" src={gestaoPessoas}/>
-                            <p>Gestão de Pessoas</p>
+                            <FadeInSection>
+                                <img alt="Gestão de Pessoas" src={gestaoPessoas}/>
+                                <p>Gestão de Pessoas</p>
+                            </FadeInSection>
                         </div>
                         <div className="medicina">
-                            <img alt="Medicina e Segurança do Trabalho" src={medicina}/>
-                            <p>Medicina e Segurança do Trabalho</p>
+                            <FadeInSection>
+                                <img alt="Medicina e Segurança do Trabalho" src={medicina}/>
+                                <p>Medicina e Segurança do Trabalho</p>
+                            </FadeInSection>
                         </div>
                         <div className="gestaoAmbiental">
-                            <img alt="Gestão Ambiental" src={gestaoAmbiental}/>
-                            <p>Gestão Ambiental</p>
+                            <FadeInSection>
+                                <img alt="Gestão Ambiental" src={gestaoAmbiental}/>
+                                <p>Gestão Ambiental</p>
+                            </FadeInSection>
                         </div>
                         <div className="gestaoClinica">
-                            <img alt="Gestão Clínica" src={gestaoClinica}/>
-                            <p>Gestão Clínica</p>
+                            <FadeInSection>
+                                <img alt="Gestão Clínica" src={gestaoClinica}/>
+                                <p>Gestão Clínica</p>
+                            </FadeInSection>
                         </div>
                         <div className="crm">
-                            <img alt="CRM" src={crm}/>
-                            <p>CRM</p>
+                            <FadeInSection>
+                                <img alt="CRM" src={crm}/>
+                                <p>CRM</p>
+                            </FadeInSection>
                         </div>
                         <div className="universal">
-                            <img alt="Universal" src={universal}/>
-                            <p>Universal</p>
+                            <FadeInSection>
+                                <img alt="Universal" src={universal}/>
+                                <p>Universal</p>
+                            </FadeInSection>
                         </div>
                         <div className="BI">
-                            <img alt="BI" src={bi}/>
-                            <p>BI</p>
+                            <FadeInSection>
+                                <img alt="BI" src={bi}/>
+                                <p>BI</p>
+                            </FadeInSection>
                         </div>
                         <div className="manutAtivos">
-                            <img alt="Manutenção de Ativos" src={manutAtivos}/>
-                            <p>Manutenção de Ativos</p>
+                            <FadeInSection>
+                                <img alt="Manutenção de Ativos" src={manutAtivos}/>
+                                <p>Manutenção de Ativos</p>
+                            </FadeInSection>
                         </div>
                     </div>
                     <div className="buttons">
-                        <button>
-                            <Link to='/solucoes'>Conheça nossas soluções</Link>
-                        </button>
+                        <FadeInSection>
+                            <button>
+                                <Link to='/solucoes'>Conheça nossas soluções</Link>
+                            </button>
+                        </FadeInSection>
                     </div>
                 </div>
-                <div class="push"/>
+                <div className="push"/>
             </div>
             <Footer/>
         </>
