@@ -54,13 +54,13 @@ export default function Empresa(){
                         <div className="animate__animated animate__fadeInRight">
                             <div className="circles">
                                 <div className="items">
-                                    <p>19 anos no mercado</p>
+                                    <p>50+ módulos desenvolvidos</p>
                                 </div>
                                 <div className="items">
-                                    <p>Incessante busca pela qualidade e inovação</p>
+                                    <p>Presente em 7 estados do Brasil</p>
                                 </div>
                                 <div className="items">
-                                    <p>Responsabilidade, comprometimento e foco no cliente</p>
+                                    <p>300+ clientes atendidos</p>
                                 </div>
                             </div>
                         </div>
