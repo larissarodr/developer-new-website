@@ -6,12 +6,12 @@
   align-items: flex-start;
 }
 
-.animate__animated {
+.main-container .animate__animated.animate__fadeIn {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .main-container .history-content {
@@ -26,8 +26,8 @@
 }
 
 .main-container .circles .items {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   color: #fff;
   line-height: 500px;
@@ -37,7 +37,7 @@
 }
 
 .main-container .circles .items p {
-  font: 700 18px Ubuntu, sans-serif;
+  font: 700 16px Ubuntu, sans-serif;
   color: #fff;
   line-height: 30px;
   text-align: center;
