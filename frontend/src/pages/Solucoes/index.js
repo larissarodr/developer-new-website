@@ -40,19 +40,21 @@ export default function Solucoes(){
     const textFinanceiro = (
         <>
             <h2>Financeiro</h2>
-            <p>- Proporciona o gerenciamento de todas as atividades do controle financeiro da empresa, permitindo 
-                uma visão completa e detalhada da situação financeira da empresa.</p>
+            <ul>
+                <li>Proporciona o gerenciamento de todas as atividades do controle financeiro da empresa, permitindo 
+                uma visão completa e detalhada da situação financeira da empresa.</li>
+            </ul>
             <h2>Módulos</h2>
             <ul>
-                <li>- Planejamento Orçamentário</li>
-                <li>- Contas a Receber</li>
-                <li>- Cobrança Escritural</li>
-                <li>- Contas a Pagar</li>
-                <li>- Pagamento Escritural</li>
-                <li>- Conciliação Bancária</li>
-                <li>- Fluxo de Caixa</li>
-                <li>- Análise de Resultado</li>
-                <li>- Integração Contábil</li>
+                <li>Planejamento Orçamentário</li>
+                <li>Contas a Receber</li>
+                <li>Cobrança Escritural</li>
+                <li>Contas a Pagar</li>
+                <li>Pagamento Escritural</li>
+                <li>Conciliação Bancária</li>
+                <li>Fluxo de Caixa</li>
+                <li>Análise de Resultado</li>
+                <li>Integração Contábil</li>
             </ul>
         </>
     );
@@ -60,18 +62,21 @@ export default function Solucoes(){
     const textProducao = (
         <>
             <h2>Produção</h2>
-            <p>- Proporciona o controle efetivo e seguro dos processos, etapas, listas de componentes e apontamentos 
-                de mão-de-obra desde a engenharia do produto até o controle do chão-de-fábrica. 
-            <br/>- Atende as características das manufaturas de processo e discreta, assim como das manufaturas não seriada ou por projeto.
-            <br/>- Possibilita uma visão completa e detalhada da área fabril, permitindo controle e 
-            acompanhamento de todas as etapas de produção.</p>
+            <ul>
+                <li>Proporciona o controle efetivo e seguro dos processos, etapas, listas de componentes e apontamentos 
+                de mão-de-obra desde a engenharia do produto até o controle do chão-de-fábrica. </li>
+                <li>Atende as características das manufaturas de processo e discreta, assim como das manufaturas 
+                    não seriada ou por projeto.</li>
+                <li>Possibilita uma visão completa e detalhada da área fabril, permitindo controle e 
+                acompanhamento de todas as etapas de produção.</li>
+            </ul>
             <h2>Módulos</h2>
             <ul>
-                <li>- Engenharia</li>
-                <li>- Integração Projeto CAD</li>
-                <li>- Configurador de Produto</li>
-                <li>- Planejamento da Produção</li>
-                <li>- Controle da Produção</li>
+                <li>Engenharia</li>
+                <li>Integração Projeto CAD</li>
+                <li>Configurador de Produto</li>
+                <li>Planejamento da Produção</li>
+                <li>Controle da Produção</li>
             </ul>
         </>
     );
@@ -79,19 +84,21 @@ export default function Solucoes(){
     const textComercial  = (
         <>
             <h2>Comercial</h2>
-            <p>- Proporciona o gerenciamento de orçamentos, pedidos de venda, faturamento e, 
-                por conseguinte a geração de títulos no financeiro e carga de estoque no sistema Logística.</p>
+            <ul>
+                <li>Proporciona o gerenciamento de orçamentos, pedidos de venda, faturamento e, 
+                por conseguinte a geração de títulos no financeiro e carga de estoque no sistema Logística.</li>
+            </ul>
             <h2>Módulos</h2>
             <ul>
-                <li>- Orçamento</li>
-                <li>- Pedido de Venda</li>
-                <li>- Faturamento</li>
-                <li>- NF-e Produto</li>
-                <li>- NFS-e Serviço</li>
-                <li>- CC-e Carta de Correção</li>
-                <li>- MDF-e Manifesto de Documento Fiscal</li>
-                <li>- Comissão de Venda</li>
-                <li>- PAF ECF FREELINE</li>
+                <li>Orçamento</li>
+                <li>Pedido de Venda</li>
+                <li>Faturamento</li>
+                <li>NF-e Produto</li>
+                <li>NFS-e Serviço</li>
+                <li>CC-e Carta de Correção</li>
+                <li>MDF-e Manifesto de Documento Fiscal</li>
+                <li>Comissão de Venda</li>
+                <li>PAF ECF FREELINE</li>
             </ul>
         </>
     );
@@ -99,15 +106,17 @@ export default function Solucoes(){
     const textLogistica  = (
         <>
             <h2>Logística</h2>
-            <p>- Proporciona o gerenciamento das entradas de mercadorias, controle da movimentação 
-                de estoque, inventário dos estoques e gerenciamento de pedidos de compra.</p>
+            <ul>
+                <li>Proporciona o gerenciamento das entradas de mercadorias, controle da movimentação 
+                de estoque, inventário dos estoques e gerenciamento de pedidos de compra.</li>
+            </ul>
             <h2>Módulos</h2>
             <ul>
-                <li>- Compras</li>
-                <li>- Integração XML NF-e</li>
-                <li>- Recebimento</li>
-                <li>- Estoque</li>
-                <li>- Avaliação de Fornecedor</li>
+                <li>Compras</li>
+                <li>Integração XML NF-e</li>
+                <li>Recebimento</li>
+                <li>Estoque</li>
+                <li>Avaliação de Fornecedor</li>
             </ul>
         </>
     );
@@ -115,13 +124,15 @@ export default function Solucoes(){
     const textServico  = (
         <>
             <h2>Serviço</h2>
-            <p>- Proporciona o gerenciamento de orçamentos e das ordens de serviço da organização.
-            <br/>- A partir dos apontamentos dos itens e da mão-de-obra utilizadas na ordem de serviço em questão, 
-            é possível gerar a nota fiscal de produto (NF-e) e de serviço (NFS-e) de forma automática.</p>
+            <ul>
+                <li>Proporciona o gerenciamento de orçamentos e das ordens de serviço da organização.</li>
+                <li>A partir dos apontamentos dos itens e da mão-de-obra utilizadas na ordem de serviço em questão, 
+                é possível gerar a nota fiscal de produto (NF-e) e de serviço (NFS-e) de forma automática.</li>
+            </ul>
             <h2>Módulos</h2>
             <ul>
-                <li>- Orçamento</li>
-                <li>- Ordem de Serviço</li>
+                <li>Orçamento</li>
+                <li>Ordem de Serviço</li>
             </ul>
         </>
     );
@@ -129,16 +140,18 @@ export default function Solucoes(){
     const textControleQualidade  = (
         <>
             <h2>Controle de Qualidade</h2>
-            <p>- Proporciona a rastreabilidade total dos processos de recebimento, produção e expedição.
-            <br/>- Registra as informações de lotes e análises de matéria-prima, produtos semi-acabados e produtos acabados, 
-            permitindo também obter as respostas dos questionamentos abaixo.
-            <br/>- Tracking: os lotes de matéria-primas foram consumidas para gerar quais lotes de produtos?
-            <br/>- Tracing: os lotes de produtos foram produzidos consumindo quais matéria-primas?</p>
+            <ul>
+                <li>Proporciona a rastreabilidade total dos processos de recebimento, produção e expedição.</li>
+                <li>Registra as informações de lotes e análises de matéria-prima, produtos semi-acabados e produtos acabados, 
+                permitindo também obter as respostas dos questionamentos abaixo.</li>
+                <li>Tracking: os lotes de matéria-primas foram consumidas para gerar quais lotes de produtos?</li>
+                <li>Tracing: os lotes de produtos foram produzidos consumindo quais matéria-primas?</li>
+            </ul>
             <h2>Módulos</h2>
             <ul>
-                <li>- CQ Recebimento</li>
-                <li>- CQ Produção</li>
-                <li>- CQ Rastreabilidade</li>
+                <li>CQ Recebimento</li>
+                <li>CQ Produção</li>
+                <li>CQ Rastreabilidade</li>
             </ul>
         </>
     );
@@ -146,13 +159,15 @@ export default function Solucoes(){
     const textFiscal  = (
         <>
             <h2>Fiscal</h2>
-            <p>- Proporciona a geração das informações fiscais exigidas pelo Fisco pelo layout 
-                do SPED (Sistema Público de Escrituração Digital).
-            <br/>- Estas informações são enviadas para o sistema de Contabilidade para posterior envio ao Fisco 
-            em conjunto com outras informações da própria Contabilidade.</p>
+            <ul>
+                <li>Proporciona a geração das informações fiscais exigidas pelo Fisco pelo layout 
+                do SPED (Sistema Público de Escrituração Digital).</li>
+                <li>Estas informações são enviadas para o sistema de Contabilidade para posterior envio ao Fisco 
+                em conjunto com outras informações da própria Contabilidade.</li>
+            </ul>
             <h2>Módulos</h2>
             <ul>
-                <li>- SPED Fiscal</li>
+                <li>SPED Fiscal</li>
             </ul>
         </>
     );
@@ -160,14 +175,16 @@ export default function Solucoes(){
     const textUniversal  = (
         <>
             <h2>Universal</h2>
-            <p>- Proporciona o cadastramento de todas as tabelas que são universais, ou seja, que 
-                são utilizadas por mais de um sistema (não específicas do sistema).
-            <br/>- Também proporciona o gerenciamento e controle de segurança do sistema, possibilitando 
-            a criação de menus com perfis adequados, além de criações de grupo de usuários e os próprios usuários.</p>
+            <ul>
+                <li>Proporciona o cadastramento de todas as tabelas que são universais, ou seja, que 
+                são utilizadas por mais de um sistema (não específicas do sistema).</li>
+                <li>Também proporciona o gerenciamento e controle de segurança do sistema, possibilitando 
+                a criação de menus com perfis adequados, além de criações de grupo de usuários e os próprios usuários.</li>
+            </ul>
             <h2>Módulos</h2>
             <ul>
-                <li>- Parâmetro Geral</li>
-                <li>- Menu e Segurança</li>
+                <li>Parâmetro Geral</li>
+                <li>Menu e Segurança</li>
             </ul>
         </>
     );
@@ -175,10 +192,12 @@ export default function Solucoes(){
     const textBI  = (
         <>
             <h2>BI</h2>
-            <p>- Proporciona ao empresário uma rápida tomada de decisão com base em informações estratégicas obtidas dos demais sistemas de gestão.</p>
+            <ul>
+                <li>Proporciona ao empresário uma rápida tomada de decisão com base em informações estratégicas obtidas dos demais sistemas de gestão.</li>
+            </ul>
             <h2>Módulos</h2>
             <ul>
-                <li>- Business Monitor</li>
+                <li>Business Monitor</li>
             </ul>
         </>
     );
@@ -186,10 +205,12 @@ export default function Solucoes(){
     const textGestaoPessoas  = (
         <>
             <h2>Gestão de Pessoas</h2>
-            <p>- Proporciona o acompanhamento e controle dos profissionais que atuam na organização.</p>
+            <ul>
+                <li>Proporciona o acompanhamento e controle dos profissionais que atuam na organização.</li>
+            </ul>
             <h2>Módulos</h2>
             <ul>
-                <li>- Controle de RH</li>
+                <li>Controle de RH</li>
             </ul>
         </>
     );
@@ -197,18 +218,20 @@ export default function Solucoes(){
     const textMedicina  = (
         <>
             <h2>Medicina e Segurança de Trabalho</h2>
-            <p>- Proporciona o gerenciamento dos processos que visam a garantia da saúde e integridade do trabalhador. 
-            Atende a legislação vigente permitindo que a empresa esteja em dia com suas obrigações juntos aos trabalhadores.</p>
-            <br/>- Proporciona o gerenciamento dos contratos com clientes e fornecedores para empresas prestadoras de serviço.
-            <br/>- Proporciona a cobrança pelos atendimentos realizados para empresas prestadoras de serviço.
+            <ul>
+                <li>Proporciona o gerenciamento dos processos que visam a garantia da saúde e integridade do trabalhador.
+                Atende a legislação vigente permitindo que a empresa esteja em dia com suas obrigações juntos aos trabalhadores.</li>
+                <li>Proporciona o gerenciamento dos contratos com clientes e fornecedores para empresas prestadoras de serviço.</li>
+                <li>Proporciona a cobrança pelos atendimentos realizados para empresas prestadoras de serviço.</li>
+            </ul>
             <h2>Módulos</h2>
             <ul>
-                <li>- Controle de Agenda</li>
-                <li>- Controle PCMSO</li>
-                <li>- ASO</li>
-                <li>- Geração de Laudo</li>
-                <li>- Controle de Contrato</li>
-                <li>- Entrega de EPI</li>
+                <li>Controle de Agenda</li>
+                <li>Controle PCMSO</li>
+                <li>ASO</li>
+                <li>Geração de Laudo</li>
+                <li>Controle de Contrato</li>
+                <li>Entrega de EPI</li>
             </ul>
         </>
     );
@@ -216,11 +239,13 @@ export default function Solucoes(){
     const textGestaoAmbiental  = (
         <>
             <h2>Gestão Ambiental</h2>
-            <p>- Proporciona o gerenciamento dos Manifestos de Transporte de Resíduos e Certificados de Destinação Final de Resíduos.</p>
-            <br/>- Proporciona a cobrança pelos resíduos destinados.
+            <ul>
+                <li>Proporciona o gerenciamento dos Manifestos de Transporte de Resíduos e Certificados de Destinação Final de Resíduos.</li>
+                <li>Proporciona a cobrança pelos resíduos destinados.</li>
+            </ul>
             <h2>Módulos</h2>
             <ul>
-                <li>- Gestão de Resíduos</li>
+                <li>Gestão de Resíduos</li>
             </ul>
         </>
     );
@@ -228,14 +253,16 @@ export default function Solucoes(){
     const textGestaoClinica  = (
         <>
             <h2>Gestão Clínica</h2>
-            <p>- Proporciona o gerenciamento de agendas, pacientes e atendimentos realizados na clínica.</p>
-            <br/>- Proporciona o gerenciamento dos contratos com clientes e fornecedores.
-            <br/>- Proporciona o gerenciamento da comissão dos profissionais envolvidos nos atendimentos.
+            <ul>
+                <li>Proporciona o gerenciamento de agendas, pacientes e atendimentos realizados na clínica.</li>
+                <li>Proporciona o gerenciamento dos contratos com clientes e fornecedores.</li>
+                <li>Proporciona o gerenciamento da comissão dos profissionais envolvidos nos atendimentos.</li>
+            </ul>
             <h2>Módulos</h2>
             <ul>
-                <li>- Controle de Agenda</li>
-                <li>- Controle de Contrato</li>
-                <li>- Gestão de Convênio</li>
+                <li>Controle de Agenda</li>
+                <li>Controle de Contrato</li>
+                <li>Gestão de Convênio</li>
             </ul>
         </>
     );
@@ -243,15 +270,17 @@ export default function Solucoes(){
     const textCrm  = (
         <>
             <h2>CRM</h2>
-            <p>- Proporciona o gerenciamento das oportunidades de negócio, gestão dos leads e clientes com 
+            <ul>
+                <li>Proporciona o gerenciamento das oportunidades de negócio, gestão dos leads e clientes com 
                 programação de contatos, controle de atividades e painéis estatísticos com os resultados da 
-                empresa e equipe de vendas.</p>
+                empresa e equipe de vendas.</li>
+            </ul>
             <h2>Módulos</h2>
             <ul>
-                <li>- Gerenciamento das Oportunidades</li>
-                <li>- Gerenciamento de Leads e Contas</li>
-                <li>- Controle de Atividades</li>
-                <li>- Estatísticas da Empresa e Equipe de Vendas</li>
+                <li>Gerenciamento das Oportunidades</li>
+                <li>Gerenciamento de Leads e Contas</li>
+                <li>Controle de Atividades</li>
+                <li>Estatísticas da Empresa e Equipe de Vendas</li>
 
             </ul>
         </>
@@ -260,12 +289,14 @@ export default function Solucoes(){
     const textManutAtivos  = (
         <>
             <h2>Manutenção de Ativos</h2>
-            <p>- Proporciona o gerenciamento das manutenções realizadas nos equipamentos da empresa.</p>
-            <br/>- Proporciona ao empresário uma rápida tomada de decisão com base em indicadores de manutenção obtidos a partir das Ordens de Servico lançadas.
+            <ul>
+                <li>Proporciona o gerenciamento das manutenções realizadas nos equipamentos da empresa.</li>
+                <li>Proporciona ao empresário uma rápida tomada de decisão com base em indicadores de manutenção obtidos a partir das Ordens de Servico lançadas.</li>
+            </ul>
             <h2>Módulos</h2>
             <ul>
-                <li>- Ordem de Serviço</li>
-                <li>- Indicadores de Manutenção</li>
+                <li>Ordem de Serviço</li>
+                <li>Indicadores de Manutenção</li>
             </ul>
         </>
     );
@@ -388,7 +419,7 @@ export default function Solucoes(){
                                 <img alt="Universal" src={universal} onClick={() => handleUpdateText('universal')}/>
                                 <p>Universal</p>
                             </div>
-                            <div className="sol-bi">
+                            <div className="sol-BI">
                                 <img alt="BI" src={bi} onClick={() => handleUpdateText('bi')}/>
                                 <p>BI</p>
                             </div>

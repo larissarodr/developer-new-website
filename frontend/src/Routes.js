@@ -5,7 +5,6 @@ import Main from './pages/Main';
 import Solucoes from './pages/Solucoes';
 import Contato from './pages/Contato';
 import Empresa from './pages/Empresa';
-import Novidades from './pages/Novidades';
 
 export default function Routes(){
     return (
@@ -15,7 +14,6 @@ export default function Routes(){
             <Route path='/solucoes' component={Solucoes}/>
             <Route path='/contato' component={Contato}/>
             <Route path='/empresa' component={Empresa}/>
-            <Route path='/novidades' component={Novidades}/>
           </Switch>
         </BrowserRouter>
     );

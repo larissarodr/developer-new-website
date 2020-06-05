@@ -14,3 +14,5 @@ yarn start
 ```
 
 The application listens port 3000.
+
+Important: the backend is not being referenced by the frontend as the company's infrastructure couldn't handle Node. However, for future reference, I've decided to leave the backend code here.

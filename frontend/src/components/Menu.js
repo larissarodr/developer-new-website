@@ -16,7 +16,7 @@ export default function Menu(){
             <li><Link to='/solucoes'>Soluções</Link></li>
             <li><Link to='/empresa'>Sobre</Link></li>
             <li><Link to='/contato'>Contato</Link></li>
-            <li><Link to='/novidades'>Novidades</Link></li>
+            <li><a href='//www.developer.inf.br/newWebsite/novidades.php/'>Novidades</a></li>
           </ul>
         </div>
       </div>

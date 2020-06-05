@@ -41,8 +41,9 @@
 
 .solution-text {
   margin-left: 60px;
-  margin-top: 40px;
+  margin-top: 20px;
   width: 450px;
+  margin-right: 60px;
 }
 
 .solution-text h2 {
@@ -69,15 +70,13 @@
 }
 
 .solution-text ul {
-  list-style: none;
-}
-
-.solution-text ul li:first-of-type {
-  text-align: justify;
-  font: 400 16px Ubuntu, sans-serif;
+  list-style-type: '✓';
+  list-style-position: outside;
 }
 
 .solution-text ul li {
+  margin: 0;
+	padding: 4px 0 0 8px;
   text-align: justify;
   font: 400 16px Ubuntu, sans-serif;
   margin: 0 0 10px;

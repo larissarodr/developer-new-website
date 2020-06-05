@@ -36,6 +36,10 @@
   background: #191970;
   padding: 20px;
   margin-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .main-container .circles .items p {
@@ -43,6 +47,8 @@
   color: #fff;
   line-height: 30px;
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .main-container .history-content h1 {
