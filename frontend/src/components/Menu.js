@@ -13,6 +13,7 @@ export default function Menu(){
         <div className="stroke">
           <Link to="/"><img src={logoImg} alt="Developer Software"/></Link>
           <ul>
+            <li><Link to='/'>Home</Link></li>
             <li><Link to='/solucoes'>Soluções</Link></li>
             <li><Link to='/empresa'>Sobre</Link></li>
             <li><Link to='/contato'>Contato</Link></li>

@@ -24,7 +24,7 @@ export default function Footer(){
               <li><Link to='/solucoes'>Soluções</Link></li>
               <li><Link to='/empresa'>Sobre</Link></li>
               <li><Link to='/contato'>Contato</Link></li>
-              <li><a href='//www.developer.inf.br/suporte/novidades.php/'>Novidades</a></li>
+              <li><a href='//www.developer.inf.br/newWebsite/novidades.php/'>Novidades</a></li>
             </ul>
           </div>
           <div className="contact-footer">

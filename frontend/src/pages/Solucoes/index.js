@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import './styles.css';
+import ReactGA from 'react-ga';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Menu from '../../components/Menu';
+
+import solutions from '../../assets/solutionsBanner.jpg'
 
 import manutAtivos from '../../assets/iconeManutAtivos.png'
 import fiscal from '../../assets/iconeFiscal.png'
@@ -307,51 +310,74 @@ export default function Solucoes(){
     }, []);
 
 
+    function recordGAEvent(category, action, label) {
+        ReactGA.event({
+          category: category,
+          action: action,
+          label: label
+        });
+    }
+
     async function handleUpdateText(solucao){
         switch(solucao) {
             case('financeiro'):
+                recordGAEvent("Soluções", "Financeiro", "Usuário clicou em Financeiro")
                 setTextSolucao(textFinanceiro); 
                 break;
             case('comercial'): 
+                recordGAEvent("Soluções", "Comercial", "Usuário clicou em Comercial")
                 setTextSolucao(textComercial); 
                 break;
             case('logistica'):
+                recordGAEvent("Soluções", "Logística", "Usuário clicou em Logística")
                 setTextSolucao(textLogistica); 
                 break;
             case('producao'): 
+                recordGAEvent("Soluções", "Produção", "Usuário clicou em Produção")
                 setTextSolucao(textProducao); 
                 break;
             case('servico'):
+                recordGAEvent("Soluções", "Serviço", "Usuário clicou em Serviço")
                 setTextSolucao(textServico); 
                 break;
             case('controleQualidade'): 
+                recordGAEvent("Soluções", "Controle de Qualidade", "Usuário clicou em Controle de Qualidade")
                 setTextSolucao(textControleQualidade); 
                 break;
             case('fiscal'):
+                recordGAEvent("Soluções", "Fiscal", "Usuário clicou em Fiscal")
                 setTextSolucao(textFiscal); 
                 break;
             case('gestaoPessoas'): 
+                recordGAEvent("Soluções", "Gestão de Pessoas", "Usuário clicou em Gestão de Pessoas")
                 setTextSolucao(textGestaoPessoas); 
                 break;
             case('medicina'):
+                recordGAEvent("Soluções", "Medicina", "Usuário clicou em Medicina")
                 setTextSolucao(textMedicina); 
                 break;
             case('gestaoAmbiental'): 
+                recordGAEvent("Soluções", "Gestão Ambiental", "Usuário clicou em Gestão Ambiental")
                 setTextSolucao(textGestaoAmbiental); 
                 break;
             case('gestaoClinica'):
+                recordGAEvent("Soluções", "Gestão Clínica", "Usuário clicou em Gestão Clínica")
                 setTextSolucao(textGestaoClinica); 
                 break;
             case('crm'): 
+                recordGAEvent("Soluções", "CRM", "Usuário clicou em CRM")
                 setTextSolucao(textCrm); 
                 break;
             case('universal'): 
+                recordGAEvent("Soluções", "Universal", "Usuário clicou em Universal")
                 setTextSolucao(textUniversal); 
                 break;
             case('bi'): 
+                recordGAEvent("Soluções", "BI", "Usuário clicou em BI")
                 setTextSolucao(textBI); 
                 break;
             case('manutAtivos'): 
+                recordGAEvent("Soluções", "Manut Ativos", "Usuário clicou em Manut Ativos")
                 setTextSolucao(textManutAtivos); 
                 break;
             default:
@@ -364,6 +390,9 @@ export default function Solucoes(){
             <div className="wrapper">
                 <Header/>
                 <Menu/>
+                <div className="image">
+                    <img alt="Developer Software" src={solutions} className="animate__animated animate__fadeInRight"/>
+                </div>
                 <div className="outside-container">
                     <div className="animate__animated animate__fadeIn">
                         <div className="solution-icons" >
