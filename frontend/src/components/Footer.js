@@ -13,7 +13,7 @@ export default function Footer(){
         <div className="separator"/>
         <div className="footerInfo">
           <div className="logo">
-            <img src={logoImg} alt="Developer Software"/>
+            <img src={logoImg} alt="Developer Software ERP Gestão Empresarial"/>
             
               <p> Desde 2001, fazendo a diferença <br/>
               para os negócios de seus clientes. </p>
@@ -24,7 +24,7 @@ export default function Footer(){
               <li><Link to='/solucoes'>Soluções</Link></li>
               <li><Link to='/empresa'>Sobre</Link></li>
               <li><Link to='/contato'>Contato</Link></li>
-              <li><a href='//www.developer.inf.br/newWebsite/novidades.php/'>Novidades</a></li>
+              <li><a href='//www.developer.inf.br/novidades.php/'>Novidades</a></li>
             </ul>
           </div>
           <div className="contact-footer">

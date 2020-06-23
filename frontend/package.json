@@ -1,6 +1,6 @@
 {
   "name": "developer-website",
-  "homepage": "http://www.developer.inf.br/newWebsite",
+  "homepage": "http://www.developer.inf.br",
   "main": "index.js",
   "version": "0.1.0",
   "private": true,

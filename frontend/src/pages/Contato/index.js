@@ -19,7 +19,7 @@ export default function Contato(){
         <Header/>
         <Menu/>
         <div className="image">
-          <img alt="Developer Software" src={company} className="animate__animated animate__fadeInRight"/>
+          <img alt="Developer Software ERP Gestão Empresarial" src={company} className="animate__animated animate__fadeInRight"/>
         </div>
         <div className="animate__animated animate__fadeIn">
           <div className="contact">

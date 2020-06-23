@@ -26,19 +26,6 @@ import servico from '../../assets/iconeServicos.png'
 
 export default function Solucoes(){
     const [textSolucao, setTextSolucao] = useState();
-    const textInicial = (
-        <>  
-            <h3>Clique nos ícones ao lado para carregar os módulos de cada sistema.</h3>
-            <h2>DEVELOPER Gestão Empresarial</h2>
-            <p>Solução ERP para distribuidores, atacadistas, prestadores de serviços, indústrias de manufatura não seriada, 
-                manufatura seriada, prestadores de serviços de medicina e segurança do trabalho, entre outros segmentos 
-                de negócios.</p>
-            <br/>
-            <p>Utilizar a solução DEVELOPER Gestão Empresarial significa crescer em âmbito tecnológico e de negócio, 
-                pois a solução foi projetada para a empresa que quer evoluir, sendo suportado por um software de 
-                gestão que acompanhe este crescimento.</p>
-        </>
-    );
 
     const textFinanceiro = (
         <>
@@ -305,6 +292,19 @@ export default function Solucoes(){
     );
 
     useEffect(() => {
+        const textInicial = (
+            <>  
+                <h3>Clique nos ícones ao lado para carregar os módulos de cada sistema.</h3>
+                <h2>DEVELOPER Gestão Empresarial</h2>
+                <p>Solução ERP para distribuidores, atacadistas, prestadores de serviços, indústrias de manufatura não seriada, 
+                    manufatura seriada, prestadores de serviços de medicina e segurança do trabalho, entre outros segmentos 
+                    de negócios.</p>
+                <br/>
+                <p>Utilizar a solução DEVELOPER Gestão Empresarial significa crescer em âmbito tecnológico e de negócio, 
+                    pois a solução foi projetada para a empresa que quer evoluir, sendo suportado por um software de 
+                    gestão que acompanhe este crescimento.</p>
+            </>
+        );
         setTextSolucao(textInicial)
         window.scrollTo(0,0);
     }, []);
@@ -381,7 +381,8 @@ export default function Solucoes(){
                 setTextSolucao(textManutAtivos); 
                 break;
             default:
-                setTextSolucao(textInicial);
+                setTextSolucao("");
+                break; 
        }
     }
 
@@ -391,7 +392,7 @@ export default function Solucoes(){
                 <Header/>
                 <Menu/>
                 <div className="image">
-                    <img alt="Developer Software" src={solutions} className="animate__animated animate__fadeInRight"/>
+                    <img alt="Developer Software ERP Gestão Empresarial" src={solutions} className="animate__animated animate__fadeInRight"/>
                 </div>
                 <div className="outside-container">
                     <div className="animate__animated animate__fadeIn">

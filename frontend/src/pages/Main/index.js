@@ -34,7 +34,7 @@ export default function Main(){
                 <Header/>
                 <Menu/>
                 <div className="first-image">
-                    <img alt="Developer Software" src={mainImg} className="animate__animated animate__fadeInRight"/>
+                    <img alt="Developer Software ERP Gestão Empresarial" src={mainImg} className="animate__animated animate__fadeInRight"/>
                 </div>
                 <div className="solutions">
                     <div className="title">

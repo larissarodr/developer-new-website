@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Router, Route, Switch, Redirect } from 'react-router-dom';
 import { createBrowserHistory } from "history";
 import ReactGA from 'react-ga';
 
@@ -21,14 +21,15 @@ export default class AppRoutes extends Component {
 
 	render() {
 		return (
-			<BrowserRouter history={history} basename={window.location.pathname || ''}>
+			<Router history={history}>
         <Switch>
           <Route path='/' exact component={Main}/>
           <Route path='/solucoes' component={Solucoes}/>
           <Route path='/contato' component={Contato}/>
           <Route path='/empresa' component={Empresa}/>
+          <Redirect to="/" />
         </Switch>
-      </BrowserRouter>
+      </Router>
 		)
 	}
 }
