@@ -396,68 +396,68 @@ export default function Solucoes(){
                 </div>
                 <div className="outside-container">
                     <div className="animate__animated animate__fadeIn">
-                        <div className="solution-icons" >
-                            <div className="sol-financeiro">
+                        <section className="solution-icons" >
+                            <article>
                                 <img alt="Financeiro" src={financeiro} onClick={() => handleUpdateText('financeiro')}/>
                                 <p>Financeiro</p>
-                            </div>
-                            <div className="sol-comercial">
+                            </article>
+                            <article>
                                 <img alt="Comercial" src={comercial} onClick={() => handleUpdateText('comercial')}/>
                                 <p>Comercial</p>
-                            </div>
-                            <div className="sol-logistica">
+                            </article>
+                            <article>
                                 <img alt="Logística" src={logistica} onClick={() => handleUpdateText('logistica')}/>
                                 <p>Logística</p>
-                            </div>
-                            <div className="sol-producao">
+                            </article>
+                            <article>
                                 <img alt="Produção" src={producao} onClick={() => handleUpdateText('producao')}/>
                                 <p>Produção</p>
-                            </div>
-                            <div className="sol-servico">
+                            </article>
+                            <article>
                                 <img alt="Serviço" src={servico} onClick={() => handleUpdateText('servico')}/>
                                 <p>Serviço</p>
-                            </div>
-                            <div className="sol-controleQualidade">
-                                <img alt="Controle de Qualidade" src={controleQualidade} onClick={() => handleUpdateText('controleQualidade')}/>
-                                <p>Controle de Qualidade</p>
-                            </div>
-                            <div className="sol-gestaoPessoas">
-                                <img alt="Gestão de Pessoas" src={gestaoPessoas} onClick={() => handleUpdateText('gestaoPessoas')}/>
-                                <p>Gestão de Pessoas</p>
-                            </div>
-                            <div className="sol-medicina">
-                                <img alt="Medicina e Segurança do Trabalho" src={medicina} onClick={() => handleUpdateText('medicina')}/>
-                                <p>Medicina e Segurança do Trabalho</p>
-                            </div>
-                            <div className="sol-gestaoAmbiental">
-                                <img alt="Gestão Ambiental" src={gestaoAmbiental} onClick={() => handleUpdateText('gestaoAmbiental')}/>
-                                <p>Gestão Ambiental</p>
-                            </div>
-                            <div className="sol-gestaoClinica">
-                                <img alt="Gestão Clínica" src={gestaoClinica} onClick={() => handleUpdateText('gestaoClinica')}/>
-                                <p>Gestão Clínica</p>
-                            </div>
-                            <div className="sol-fiscal">
+                            </article>
+                            <article>
                                 <img alt="Fiscal" src={fiscal} onClick={() => handleUpdateText('fiscal')}/>
                                 <p>Fiscal</p>
-                            </div>
-                            <div className="sol-crm">
-                                <img alt="CRM" src={crm} onClick={() => handleUpdateText('crm')}/>
-                                <p>CRM</p>
-                            </div>
-                            <div className="sol-universal">
-                                <img alt="Universal" src={universal} onClick={() => handleUpdateText('universal')}/>
-                                <p>Universal</p>
-                            </div>
-                            <div className="sol-BI">
-                                <img alt="BI" src={bi} onClick={() => handleUpdateText('bi')}/>
-                                <p>BI</p>
-                            </div>
-                            <div className="sol-manutAtivos">
+                            </article>
+                            <article>
+                                <img alt="Controle de Qualidade" src={controleQualidade} onClick={() => handleUpdateText('controleQualidade')}/>
+                                <p>Controle de Qualidade</p>
+                            </article>
+                            <article>
                                 <img alt="Manutenção de Ativos" src={manutAtivos} onClick={() => handleUpdateText('manutAtivos')}/>
                                 <p>Manutenção de Ativos</p>
-                            </div>
-                        </div>
+                            </article>
+                            <article>
+                                <img alt="Gestão de Pessoas" src={gestaoPessoas} onClick={() => handleUpdateText('gestaoPessoas')}/>
+                                <p>Gestão de Pessoas</p>
+                            </article>
+                            <article>
+                                <img alt="Medicina e Segurança do Trabalho" src={medicina} onClick={() => handleUpdateText('medicina')}/>
+                                <p>Medicina e Segurança do Trabalho</p>
+                            </article>
+                            <article>
+                                <img alt="Gestão Ambiental" src={gestaoAmbiental} onClick={() => handleUpdateText('gestaoAmbiental')}/>
+                                <p>Gestão Ambiental</p>
+                            </article>
+                            <article>
+                                <img alt="Gestão Clínica" src={gestaoClinica} onClick={() => handleUpdateText('gestaoClinica')}/>
+                                <p>Gestão Clínica</p>
+                            </article>
+                            <article>
+                                <img alt="Universal" src={universal} onClick={() => handleUpdateText('universal')}/>
+                                <p>Universal</p>
+                            </article>
+                            <article>
+                                <img alt="CRM" src={crm} onClick={() => handleUpdateText('crm')}/>
+                                <p>CRM</p>
+                            </article>
+                            <article>
+                                <img alt="BI" src={bi} onClick={() => handleUpdateText('bi')}/>
+                                <p>BI</p>
+                            </article>
+                        </section>
                     </div>
                     <div className="solution-text">
                         {textSolucao}

@@ -22,19 +22,18 @@
   opacity: 0.7;
 }
 
+.outside-container .animate__animated {
+  flex: 1;
+  max-width: 785px;
+}
+
 .solution-icons {
   margin-bottom: 58px;
   margin-top: 40px;
   margin-left: 40px;
-  max-width: 100%;
   display: grid;
-  row-gap: 10px;
-  column-gap: 5px;
-  grid-auto-columns: auto;
-  grid-template-areas: 
-  "a b c d e"
-  "f g h i j"
-  "k l m n o";   
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-gap: 10px;
 }
 
 .solution-icons p {
@@ -87,94 +86,8 @@
   margin: 0 0 10px;
 }
 
-.sol-financeiro {
-  grid-area: a;
+.solution-icons article {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.sol-comercial {
-  grid-area: b;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.sol-logistica {
-  grid-area: c;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.sol-producao {
-  grid-area: d;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.sol-servico {
-  grid-area: e;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.sol-fiscal {
-  grid-area: f;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.sol-controleQualidade {
-  grid-area: g;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.sol-manutAtivos {
-  grid-area: h;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.sol-gestaoPessoas {
-  grid-area: i;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.sol-medicina {
-  grid-area: j;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.sol-gestaoAmbiental {
-  grid-area: k;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.sol-gestaoClinica {
-  grid-area: l;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.sol-universal {
-  grid-area: m;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.sol-crm {
-  grid-area: n;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.sol-BI {
-  grid-area: o;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
