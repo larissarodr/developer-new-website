@@ -36,7 +36,7 @@ export default function Footer(){
           </div>
         </div>
         <div className="copyright">
-          <p>2020 - Powered by Developer Software</p>
+          <p>2021 - Powered by Developer Software</p>
         </div>
       </footer>    
     </>    
