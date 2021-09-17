@@ -286,6 +286,8 @@ export default function Solucoes() {
         <li>Geração de Laudo</li>
         <li>Controle de Contrato</li>
         <li>Entrega de EPI</li>
+        <li>Integração e-Social</li>
+        <li>PGR Programa de Gerenciamento de Riscos</li>
       </ul>
     </>
   );
