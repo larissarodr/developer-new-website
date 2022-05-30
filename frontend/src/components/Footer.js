@@ -55,7 +55,9 @@ export default function Footer() {
           </div>
         </div>
         <div className="copyright">
-          <p>2022 - Powered by Developer Software ©</p>
+          <p>
+            {new Date().getFullYear()} - Powered by Developer Software &copy;
+          </p>
         </div>
       </footer>
     </>
