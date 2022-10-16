@@ -46,6 +46,8 @@ export default function Solucoes() {
         <li>Pagamento Escritural</li>
         <li>Conciliação Bancária</li>
         <li>Fluxo de Caixa</li>
+        <li>Adiantamento de Títulos</li>
+        <li>Desconto de Títulos</li>
         <li>Análise de Resultado</li>
         <li>Integração Contábil</li>
       </ul>
@@ -77,6 +79,8 @@ export default function Solucoes() {
         <li>Configurador de Produto</li>
         <li>Planejamento da Produção</li>
         <li>Controle da Produção</li>
+        <li>Produção Terceiros</li>
+        <li>Industrialização e Retorno Beneficiamento</li>
       </ul>
     </>
   );
@@ -95,15 +99,14 @@ export default function Solucoes() {
       <ul>
         <li>Orçamento</li>
         <li>Pedido de Venda</li>
-        <li>Expedição</li>
-        <li>Faturamento</li>
-        <li>NF-e Produto</li>
-        <li>NFS-e Serviço</li>
-        <li>CC-e Carta de Correção</li>
+        <li>Separação e Conferência</li>
+        <li>Romaneio Expedição</li>
+        <li>Faturamento NF-e Produto</li>
+        <li>Faturamento NFS-e Serviço</li>
+        <li>Faturamento NFC-e Consumidor</li>
+        <li>CT-e Conhecimento de Transporte</li>
         <li>MDF-e Manifesto de Documento Fiscal</li>
         <li>Comissão de Venda</li>
-        <li>PAF ECF FREELINE</li>
-        <li>NFC-e Consumidor Final (PR)</li>
       </ul>
     </>
   );
@@ -121,11 +124,11 @@ export default function Solucoes() {
       <h2>Módulos</h2>
       <ul>
         <li>Compras</li>
-        <li>Integração XML NF-e</li>
+        <li>Gerenciador de NF-e / CT-e</li>
         <li>Recebimento</li>
+        <li>Conferência de Recebimento</li>
         <li>Estoque</li>
         <li>Avaliação de Fornecedor</li>
-        <li>Manifestação Destinatário NF-e</li>
       </ul>
     </>
   );
@@ -147,6 +150,7 @@ export default function Solucoes() {
       <h2>Módulos</h2>
       <ul>
         <li>Orçamento</li>
+        <li>Gestão de Contrato</li>
         <li>Ordem de Serviço</li>
       </ul>
     </>
@@ -199,7 +203,8 @@ export default function Solucoes() {
       </ul>
       <h2>Módulos</h2>
       <ul>
-        <li>SPED Fiscal</li>
+        <li>Integração SPED Fiscal</li>
+        <li>Geração e-Social SST</li>
       </ul>
     </>
   );
@@ -223,6 +228,7 @@ export default function Solucoes() {
       <ul>
         <li>Parâmetro Geral</li>
         <li>Menu e Segurança</li>
+        <li>Agenda</li>
       </ul>
     </>
   );
@@ -284,9 +290,7 @@ export default function Solucoes() {
         <li>Controle PCMSO</li>
         <li>ASO</li>
         <li>Geração de Laudo</li>
-        <li>Controle de Contrato</li>
         <li>Entrega de EPI</li>
-        <li>Integração e-Social</li>
         <li>PGR Programa de Gerenciamento de Riscos</li>
       </ul>
     </>
@@ -347,8 +351,11 @@ export default function Solucoes() {
       <h2>Módulos</h2>
       <ul>
         <li>Gerenciamento das Oportunidades</li>
-        <li>Gerenciamento de Leads e Contas</li>
+        <li>Gerenciamento de Carteira</li>
+        <li>Controle de Leads</li>
+        <li>Controle de Contas</li>
         <li>Controle de Atividades</li>
+        <li>Controle de Metas de Vendas</li>
         <li>Estatísticas da Empresa e Equipe de Vendas</li>
       </ul>
     </>
