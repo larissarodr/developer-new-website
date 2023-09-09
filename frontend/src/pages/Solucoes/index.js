@@ -78,7 +78,9 @@ export default function Solucoes() {
         <li>Integração Projeto CAD</li>
         <li>Configurador de Produto</li>
         <li>Planejamento da Produção</li>
+        <li>Programação da Produção</li>
         <li>Controle da Produção</li>
+        <li>Chão de Fábrica</li>
         <li>Produção Terceiros</li>
         <li>Industrialização e Retorno Beneficiamento</li>
       </ul>
@@ -151,7 +153,7 @@ export default function Solucoes() {
       <ul>
         <li>Orçamento</li>
         <li>Gestão de Contrato</li>
-        <li>Ordem de Serviço</li>
+        <li>Controle de Serviço</li>
       </ul>
     </>
   );
@@ -308,7 +310,7 @@ export default function Solucoes() {
       </ul>
       <h2>Módulos</h2>
       <ul>
-        <li>Gestão de Resíduos</li>
+        <li>Controle de Resíduos</li>
       </ul>
     </>
   );
@@ -377,7 +379,7 @@ export default function Solucoes() {
       </ul>
       <h2>Módulos</h2>
       <ul>
-        <li>Ordem de Serviço</li>
+        <li>Controle de Manutenção</li>
         <li>Indicadores de Manutenção</li>
       </ul>
     </>
