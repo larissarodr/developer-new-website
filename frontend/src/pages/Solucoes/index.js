@@ -29,7 +29,7 @@ export default function Solucoes() {
 
   const textFinanceiro = (
     <>
-      <h2>Financeiro</h2>
+      <h2>Financeiro </h2>
       <ul>
         <li>
           Proporciona o gerenciamento de todas as atividades do controle
