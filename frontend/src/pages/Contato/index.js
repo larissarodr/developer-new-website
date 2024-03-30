@@ -26,24 +26,24 @@ export default function Contato(){
               <div className="left">
                 <h1>Geral</h1>
                 <p><FiPhone size={16} color="#000"/> (47) 3028-2711</p>
-                <p><FiAtSign size={16} color="#000"/>developer@developer.inf.br</p>
+                <p><FiAtSign size={16} color="#000"/><a href="mailto:developer@developer.inf.br">developer@developer.inf.br</a></p>
                 <p><FiHome size={16} color="#000"/>Joinville, SC</p>
               </div>
               <div className="middle">
                 <h1>Vendas</h1>
                 <p><FiPhone size={16} color="#000"/> (47) 3028-2711</p>
-                <p><FiAtSign size={16} color="#000"/>comercial@developer.inf.br</p>
+                <p><FiAtSign size={16} color="#000"/><a href="mailto:comercial@developer.inf.br">comercial@developer.inf.br</a></p>
                 <h1>Suporte</h1>
                 <p><FiPhone size={16} color="#000"/> (47) 3029-2771</p>
-                <p><FiAtSign size={16} color="#000"/>suporte@developer.inf.br</p>
+                <p><FiAtSign size={16} color="#000"/><a href="mailto:suporte@developer.inf.br">suporte@developer.inf.br</a></p>
               </div>
               <div className="right">
                 <h1>Financeiro</h1>
                 <p><FiPhone size={16} color="#000"/> (47) 3028-2711</p>
-                <p><FiAtSign size={16} color="#000"/>financeiro@developer.inf.br</p>
+                <p><FiAtSign size={16} color="#000"/><a href="mailto:financeiro@developer.inf.br">financeiro@developer.inf.br</a></p>
                 <h1>Recursos Humanos</h1>
                 <p><FiPhone size={16} color="#000"/> (47) 3028-2711</p>
-                <p><FiAtSign size={16} color="#000"/>rh@developer.inf.br</p>
+                <p><FiAtSign size={16} color="#000"/><a href="mailto:rh@developer.inf.br">rh@developer.inf.br</a></p>
               </div>
             </div>
           </div>

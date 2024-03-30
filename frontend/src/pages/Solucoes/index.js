@@ -77,8 +77,10 @@ export default function Solucoes() {
         <li>Engenharia</li>
         <li>Integração Projeto CAD</li>
         <li>Configurador de Produto</li>
-        <li>Planejamento da Produção</li>
-        <li>Programação da Produção</li>
+        <li>MPS - Plano Mestre de Produção</li>
+        <li>MRP - Planejamento das Necessidades de Materiais</li>
+        <li>CRP - Planejamento das Necessidades de Capacidade</li>
+        <li>Scheduling - Programação OP</li>
         <li>Controle da Produção</li>
         <li>Chão de Fábrica</li>
         <li>Produção Terceiros</li>
@@ -99,6 +101,7 @@ export default function Solucoes() {
       </ul>
       <h2>Módulos</h2>
       <ul>
+        <li>Integração e-Commerce</li>
         <li>Orçamento</li>
         <li>Pedido de Venda</li>
         <li>Separação e Conferência</li>
@@ -126,7 +129,7 @@ export default function Solucoes() {
       <h2>Módulos</h2>
       <ul>
         <li>Compras</li>
-        <li>Gerenciador de NF-e / CT-e</li>
+        <li>Gerenciador de DF-e</li>
         <li>Recebimento</li>
         <li>Conferência de Recebimento</li>
         <li>Estoque</li>
@@ -289,11 +292,10 @@ export default function Solucoes() {
       <h2>Módulos</h2>
       <ul>
         <li>Controle de Agenda</li>
-        <li>Controle PCMSO</li>
-        <li>ASO</li>
+        <li>Controle PCMSO / ASO</li>
         <li>Geração de Laudo</li>
+        <li>Controle de Treinamento</li>
         <li>Entrega de EPI</li>
-        <li>PGR Programa de Gerenciamento de Riscos</li>
       </ul>
     </>
   );
@@ -334,7 +336,7 @@ export default function Solucoes() {
       <h2>Módulos</h2>
       <ul>
         <li>Controle de Agenda</li>
-        <li>Controle de Contrato</li>
+        <li>Controle de Atendimento</li>
         <li>Gestão de Convênio</li>
       </ul>
     </>

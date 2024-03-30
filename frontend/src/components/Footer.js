@@ -49,7 +49,7 @@ export default function Footer() {
               <FiPhone size={14} color="#000" /> Suporte: (47) 3029-2771
             </p>
             <p>
-              <FiAtSign size={14} color="#000" /> developer@developer.inf.br
+              <FiAtSign size={14} color="#000" />  <a href="mailto:developer@developer.inf.br">developer@developer.inf.br</a>
             </p>
             <p>Joinville, SC</p>
           </div>
