@@ -82,3 +82,10 @@
   font: 300 16px Ubuntu, sans-serif;
   text-align: justify;
 }
+
+.linhaTempo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}

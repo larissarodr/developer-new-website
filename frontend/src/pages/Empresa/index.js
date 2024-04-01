@@ -6,7 +6,7 @@ import "animate.css/animate.min.css";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Menu from "../../components/Menu";
-import company from '../../assets/linhadotempo.png';
+import linhaDoTempo from '../../assets/linhadotempo.png';
 
 export default function Empresa() {
   return (
@@ -16,9 +16,9 @@ export default function Empresa() {
         <Menu />
 
         <div className="main-container">
+			  <img className="linhaTempo" alt="Developer Software ERP Gestão Empresarial" src={linhaDoTempo}/>
           <div className="animate__animated animate__fadeIn">
             <div className="history-content">
-            {/*<img alt="Developer Software ERP Gestão Empresarial" src={company}/>*/} 
               <h1>Sobre a DEVELOPER SOFTWARE</h1>
               <p>
                 Com respeito, qualidade, inovação e comprometimento. Foi desta
