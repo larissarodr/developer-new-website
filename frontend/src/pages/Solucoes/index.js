@@ -396,9 +396,19 @@ export default function Solucoes() {
         <h2>DEVELOPER Gestão Empresarial</h2>
         <p>
           Solução ERP para distribuidores, atacadistas, prestadores de serviços,
-          indústrias de manufatura não seriada, manufatura seriada, prestadores
-          de serviços de medicina e segurança do trabalho, entre outros
-          segmentos de negócios.
+          indústrias de manufatura não seriada / projeto, manufatura seriada,
+          entre outros segmentos de negócios.
+        </p>
+        <br />
+        <p>
+          O produto ERP DEVELOPER Gestão Empresarial roda no conceito Anywhere, 
+          ou seja, o cliente opta onde deseja rodar sua solução. Pode ser em 
+          equipamento próprio ou, caso desejar, na nuvem.
+          </p>
+        <br />
+        <p>
+          Além disto, o sistema é multiempresa e multifilial, podendo ter na mesma
+          base de dados várias empresas, com suas respectivas filiais.
         </p>
         <br />
         <p>
