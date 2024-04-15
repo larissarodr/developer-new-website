@@ -45,8 +45,7 @@ export default function Empresa() {
               <p>
                 Hoje, a DEVELOPER possui um grande portfólio de soluções para
                 distribuidores, atacadistas, prestadores de serviços, indústrias
-                de manufatura não seriada, manufatura seriada, prestadores de
-                serviços de medicina e segurança do trabalho, entre outros
+                de manufatura não seriada / projeto, manufatura seriada, entre outros
                 segmentos de negócios, fazendo definitivamente a diferença para
                 seus clientes.
               </p>
