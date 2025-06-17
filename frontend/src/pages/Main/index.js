@@ -7,6 +7,7 @@ import Header from '../../components/Header';
 import Menu from '../../components/Menu';
 import Footer from '../../components/Footer';
 import FadeInSection from '../../components/FadeInSection';
+import Video from "./video.js";
 
 import mainImg from '../../assets/handsChartDarker.jpg'
 
@@ -147,6 +148,9 @@ export default function Main(){
                             </button>
                         </FadeInSection>
                     </div>
+					<div className="video">
+						<Video/>
+					</div>
                 </div>
                 <div className="push"/>
             </div>

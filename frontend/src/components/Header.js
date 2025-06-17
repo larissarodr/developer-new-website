@@ -4,8 +4,9 @@ import {
   FiAtSign,
   FiPhone,
   FiInstagram,
-  FiLinkedin,
+  FiLinkedin
 } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa";
 
 import "./header.css";
 
@@ -19,9 +20,9 @@ export default function Header() {
         <a href="//www.linkedin.com/company/developer-software/">
           <FiLinkedin size={16} color="#fff" /> Linkedin
         </a>
-        <p>
-          <FiPhone size={16} color="#fff" /> Vendas: (47) 3028-2711
-        </p>
+        <a href="https://wa.me/message/7WCJHJ3STP4PF1">
+          <FaWhatsapp size={16} color="#fff" /> Vendas: (47) 3028-2711
+        </a>
         <p>
           <FiPhone size={16} color="#fff" /> Suporte: (47) 3029-2771
         </p>

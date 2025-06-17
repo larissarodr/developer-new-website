@@ -10,6 +10,7 @@ import company from '../../assets/contatoBanner.jpg';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Menu from '../../components/Menu';
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Contato(){
   
@@ -32,6 +33,7 @@ export default function Contato(){
               <div className="middle">
                 <h1>Vendas</h1>
                 <p><FiPhone size={16} color="#000"/> (47) 3028-2711</p>
+                <p><FaWhatsapp size={16} color="#000"/> <a href="https://wa.me/message/7WCJHJ3STP4PF1" className="whatslink">WhatsApp: (47) 3028-2711</a></p>
                 <p><FiAtSign size={16} color="#000"/><a href="mailto:comercial@developer.inf.br">comercial@developer.inf.br</a></p>
                 <h1>Suporte</h1>
                 <p><FiPhone size={16} color="#000"/> (47) 3029-2771</p>

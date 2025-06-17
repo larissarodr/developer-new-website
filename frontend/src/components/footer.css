@@ -64,12 +64,16 @@ footer .footerInfo .logo p {
   margin-top: 15px;
   max-width: 210px;
   font: 700 13px Ubuntu, sans-serif;
-  text-align: jutify;
+  text-align: justify;
 }
 
 footer .footerInfo .contact-footer p {
   margin-top: 20px;
   font: 400 16px Ubuntu, sans-serif;
+}
+
+footer .footerInfo .contact-footer .vendas-whatsapp a {
+  text-decoration: none;
 }
 
 footer .footerInfo .contact-footer p + p{

@@ -4,6 +4,7 @@ import { FiPhone, FiAtSign } from "react-icons/fi";
 
 import "./footer.css";
 import logoImg from "../assets/Logo1.png";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -42,8 +43,8 @@ export default function Footer() {
           </div>
           <div className="contact-footer">
             <h3>Contato</h3>
-            <p>
-              <FiPhone size={14} color="#000" /> Vendas: (47) 3028-2711
+            <p className="vendas-whatsapp">
+               <a href="https://wa.me/message/7WCJHJ3STP4PF1"><FaWhatsapp size={16} /> Vendas: (47) 3028-2711  </a>
             </p>
             <p>
               <FiPhone size={14} color="#000" /> Suporte: (47) 3029-2771

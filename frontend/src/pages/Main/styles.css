@@ -7,7 +7,7 @@
 }
 
 .solutions {
-  height: 950px;
+  /* height: 950px; */
   background-color: #f7f7f7;
 }
 
@@ -153,4 +153,12 @@
   color: #000;
   font: 700 18px Ubuntu, sans-serif;
   text-align: center;
+}
+
+.video {
+  color: #000;
+  font: 700 20px Ubuntu, sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px;
 }

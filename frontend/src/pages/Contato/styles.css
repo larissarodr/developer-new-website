@@ -49,3 +49,7 @@
 .image img {
   max-width: 100%;
 }
+
+.whatslink {
+	text-decoration: none;
+}
