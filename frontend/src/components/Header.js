@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <header>
       <div className="links">
-        <a href="//www.instagram.com/erpdevelopersoftware">
+        <a href="//www.instagram.com/developererp">
           <FiInstagram size={16} color="#fff" /> Instagram
         </a>
         <a href="//www.linkedin.com/company/developer-software/">
